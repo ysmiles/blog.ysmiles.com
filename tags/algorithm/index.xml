@@ -1,30 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Algorithm on YSMILES HOME</title>
-    <link>/tags/algorithm/</link>
-    <description>Recent content in Algorithm on YSMILES HOME</description>
-    <image>
-      <title>YSMILES HOME</title>
-      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 20 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Python basics for algorithm practices</title>
-      <link>/posts/python-basics-for-algorithm-practices/</link>
-      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/python-basics-for-algorithm-practices/</guid>
-      <description>Actively updating&amp;hellip;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Algorithm - Tag - ysmiles home new</title>
+        <link>https://ysmiles.com/tags/algorithm/</link>
+        <description>Algorithm - Tag - ysmiles home new</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>fromblog@ysmiles.com (Frederick)</managingEditor>
+            <webMaster>fromblog@ysmiles.com (Frederick)</webMaster><copyright>copyright test</copyright><lastBuildDate>Mon, 20 Dec 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ysmiles.com/tags/algorithm/" rel="self" type="application/rss+xml" /><item>
+    <title>Python basics for algorithm practices</title>
+    <link>https://ysmiles.com/posts/python-basics-for-algorithm-practices/</link>
+    <pubDate>Mon, 20 Dec 2021 00:00:00 &#43;0000</pubDate>
+    <author>Frederick</author>
+    <guid>https://ysmiles.com/posts/python-basics-for-algorithm-practices/</guid>
+    <description><![CDATA[Actively updating&hellip;
 This post assume the reader to be familiar with at least one of other popular used programming language, preferably Java and C++; or know python before and just need refresh.
-Array Python&amp;rsquo;s array type is similar to C++&amp;rsquo;s vector or Java&amp;rsquo;s ArrayList.
+Array Python&rsquo;s array type is similar to C++&rsquo;s vector or Java&rsquo;s ArrayList.
 And for algorithm practice we usually use list, which will be introduced in next section.
 Ref: array — Efficient arrays of numeric values
-# create an array array(&amp;#39;u&amp;#39;, &amp;#39;hello \u2641&amp;#39;) array(&amp;#39;l&amp;#39;, [1, 2, 3, 4, 5]) array(&amp;#39;d&amp;#39;, [1.</description>
-    </item>
-    
-  </channel>
+# create an array array(&#39;u&#39;, &#39;hello \u2641&#39;) array(&#39;l&#39;, [1, 2, 3, 4, 5]) array(&#39;d&#39;, [1.]]></description>
+</item>
+</channel>
 </rss>

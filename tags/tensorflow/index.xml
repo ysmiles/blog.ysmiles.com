@@ -1,26 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>TensorFlow on YSMILES HOME</title>
-    <link>/tags/tensorflow/</link>
-    <description>Recent content in TensorFlow on YSMILES HOME</description>
-    <image>
-      <title>YSMILES HOME</title>
-      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 22 Oct 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bitcoin price prediction</title>
-      <link>/posts/bitcoin-price-prediction/</link>
-      <pubDate>Sun, 22 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/bitcoin-price-prediction/</guid>
-      <description>1. Introduction This is a small project to learn basics of TensorFlow and solving time series problems with RNN. For more details, please refer to the codes at Github: ysmiles.
-1.1 Time-series A time series is a series of data points indexed (or listed or graphed) in time order. Most commonly, a time series is a sequence taken at successive equally spaced points in time. Thus it is a sequence of discrete-time data.</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>TensorFlow - Tag - ysmiles home new</title>
+        <link>https://ysmiles.com/tags/tensorflow/</link>
+        <description>TensorFlow - Tag - ysmiles home new</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>fromblog@ysmiles.com (Frederick)</managingEditor>
+            <webMaster>fromblog@ysmiles.com (Frederick)</webMaster><copyright>copyright test</copyright><lastBuildDate>Sun, 22 Oct 2017 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ysmiles.com/tags/tensorflow/" rel="self" type="application/rss+xml" /><item>
+    <title>Bitcoin price prediction</title>
+    <link>https://ysmiles.com/posts/bitcoin-price-prediction/</link>
+    <pubDate>Sun, 22 Oct 2017 00:00:00 &#43;0000</pubDate>
+    <author>Frederick</author>
+    <guid>https://ysmiles.com/posts/bitcoin-price-prediction/</guid>
+    <description><![CDATA[1. Introduction This is a small project to learn basics of TensorFlow and solving time series problems with RNN. For more details, please refer to the codes at Github: ysmiles.
+1.1 Time-series A time series is a series of data points indexed (or listed or graphed) in time order. Most commonly, a time series is a sequence taken at successive equally spaced points in time. Thus it is a sequence of discrete-time data.]]></description>
+</item>
+</channel>
 </rss>

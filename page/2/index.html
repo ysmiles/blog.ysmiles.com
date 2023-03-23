@@ -1,5 +1,113 @@
-<!doctype html><html lang=en dir=auto><head><meta name=generator content="Hugo 0.107.0"><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>YSMILES HOME</title><meta name=keywords content="Blog,Portfolio,PaperMod"><meta name=description content="ExampleSite description"><meta name=author content="YS"><link rel=canonical href=/><link crossorigin=anonymous href=/assets/css/stylesheet.ddbf7219471e1126282438a902837d962a32b41ca0eb0fdcbea41bcd83b8d308.css integrity="sha256-3b9yGUceESYoJDipAoN9lioytByg6w/cvqQbzYO40wg=" rel="preload stylesheet" as=style><link rel=icon href=/images/favicon.ico><link rel=icon type=image/png sizes=16x16 href=%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=32x32 href=%3Clink%20/%20abs%20url%3E><link rel=apple-touch-icon href=/images/yun-da.png><link rel=mask-icon href=/images/yun-da.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=/index.xml><link rel=alternate type=application/json href=/index.json><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><meta property="og:title" content="YSMILES HOME"><meta property="og:description" content="ExampleSite description"><meta property="og:type" content="website"><meta property="og:url" content="/"><meta property="og:image" content="%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="og:site_name" content="ysmiles homepage"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="YSMILES HOME"><meta name=twitter:description content="ExampleSite description"><script type=application/ld+json>{"@context":"https://schema.org","@type":"Organization","name":"YSMILES HOME","url":"","description":"ExampleSite description","thumbnailUrl":"/images/favicon.ico","sameAs":["https://github.com/ysmiles","https://www.linkedin.com/in/yu-shu/","mailto:fromblog@ysmiles.com"]}</script></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href accesskey=h title="ysmiles (Alt + H)"><img src=/images/yun-da.png alt aria-label=logo height=35>ysmiles</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=/about title="About me"><span>About me</span></a></li><li><a href=/tags title=Tags><span>Tags</span></a></li><li><a href=/search title="Search (Alt + /)" accesskey=/><span>Search</span></a></li></ul></nav></header><main class=main><article class=post-entry><header class=entry-header><h2>Run a basic gRPC example with Docker</h2></header><div class=entry-content><p>Introduction The purpose of this article is very simple. Just run a gRPC example in different Docker containers. Since it really costed me a lot of time, I’d like to keep records here.
-Docker is a very useful container tool, which can be considered as a light virtualization technique comparing to traditional virtual machine tools such as Virtualbox, VMware, etc. For more details about the differences between them, as well as the Docker’s basics, please refer this Stack Overflow question, the Digital Ocean tutorial, or the Docker official introduction....</p></div><footer class=entry-footer><span title='2017-10-05 00:00:00 +0000 UTC'>October 5, 2017</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Frederick</footer><a class=entry-link aria-label="post link to Run a basic gRPC example with Docker" href=/posts/run-a-basic-grpc-example-with-docker/></a></article><article class=post-entry><header class=entry-header><h2>简评三则</h2></header><div class=entry-content><p>每每看完一部有意思的作品，总有些想说的。早有意写点评论，最初是想写长，后来发现写长有两个弊端，一个是花的时间较多；二是自身的文字功力也不够。以防无病呻吟，这次尝试一下简要些的评论。
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+	<meta name="generator" content="Hugo 0.92.2" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>ysmiles home new</title><meta name="Description" content="ysmiles test params description"><meta property="og:title" content="ysmiles home new" />
+<meta property="og:description" content="ysmiles test params description" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ysmiles.com/" /><meta property="og:image" content="https://ysmiles.com/47"/><meta property="og:site_name" content="ysmiles test params title" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://ysmiles.com/47"/>
+
+<meta name="twitter:title" content="ysmiles home new"/>
+<meta name="twitter:description" content="ysmiles test params description"/>
+<meta name="application-name" content="app title">
+<meta name="apple-mobile-web-app-title" content="app title"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://ysmiles.com/" /><link rel="alternate" href="/index.xml" type="application/rss+xml" title="ysmiles home new">
+    <link rel="feed" href="/index.xml" type="application/rss+xml" title="ysmiles home new"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https:\/\/ysmiles.com\/","inLanguage": "en-us","author": {
+                "@type": "Person",
+                "name": "Frederick"
+            },"description": "ysmiles test params description","license": "copyright test","name": "ysmiles home new"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="ysmiles home new">ysmiles</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/about"> About </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="ysmiles home new">ysmiles</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/about" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="page home" data-home="posts"><div class="home-profile"><div class="home-avatar"><a href="/posts/" title="Posts"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/yun-da.png"
+        data-srcset="/images/yun-da.png, /images/yun-da.png 1.5x, /images/yun-da.png 2x"
+        data-sizes="auto"
+        alt="/images/yun-da.png"
+        title="/images/yun-da.png" /></a></div><h1 class="home-title">卷云</h1><div class="home-subtitle"><div id="id-1" class="typeit"></div></div><div class="links"><a href="https://github.com/ysmiles" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github fa-fw" aria-hidden="true"></i></a><a href="https://linkedin.com/in/yu-shu" title="LinkedIn" target="_blank" rel="noopener noreffer me"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="mailto:fromblog@ysmiles.com" title="Email" rel="me"><i class="far fa-envelope fa-fw" aria-hidden="true"></i></a></div></div>
+<article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/run-a-basic-grpc-example-with-docker/">Run a basic gRPC example with Docker</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://ysmiles.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Frederick</a></span>&nbsp;<span class="post-publish">published on <time datetime="2017-10-05">2017-10-05</time></span></div><div class="content">Introduction The purpose of this article is very simple. Just run a gRPC example in different Docker containers. Since it really costed me a lot of time, I&rsquo;d like to keep records here.
+Docker is a very useful container tool, which can be considered as a light virtualization technique comparing to traditional virtual machine tools such as Virtualbox, VMware, etc. For more details about the differences between them, as well as the Docker&rsquo;s basics, please refer this Stack Overflow question, the Digital Ocean tutorial, or the Docker official introduction.</div><div class="post-footer">
+        <a href="/posts/run-a-basic-grpc-example-with-docker/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/grpc/">gRPC</a>,&nbsp;<a href="/tags/docker/">Docker</a>,&nbsp;<a href="/tags/linux/">Linux</a>,&nbsp;<a href="/tags/network/">Network</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/jian-ping-san-ze/">简评三则</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://ysmiles.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Frederick</a></span>&nbsp;<span class="post-publish">published on <time datetime="2017-08-29">2017-08-29</time></span></div><div class="content">每每看完一部有意思的作品，总有些想说的。早有意写点评论，最初是想写长，后来发现写长有两个弊端，一个是花的时间较多；二是自身的文字功力也不够。以防无病呻吟，这次尝试一下简要些的评论。
 射雕（2017） 金庸先生的作品我向来是非常推崇的，他的所有武侠作品，我应该都有拜读过。其中最喜爱的当属《天龙八部》和《笑傲江湖》两部，在此不表。喜爱天龙八部的，可以看看水天王x的解读。
 说到射雕三部曲，是我最先看的金庸先生的作品。不过实际上，初中时机缘巧合下，我先看的是《神雕侠侣》，之后才是《射雕英雄传》和《倚天屠龙记》。就小说本身来讲，我认为射雕是最能代表金庸武侠小说整个基调的作品，整部给人的感觉，怎么说呢，“中正”似乎比较合适。无论是从角色塑造，还是剧情安排情节设计，我觉得都是中规中矩（褒义，也并不代表没有起承转合和悬念等，只是相对于其之后的一些作品，没有那么出彩而已）。
 此次是评今年新拍的电视剧，小说那边就暂时放下。首先给个整体评分，6.5/10。这个分数，代表着及格了，不至于说是拍的很烂，但许多方面，尚有许多可以提高的空间。
@@ -35,7 +143,12 @@ Docker is a very useful container tool, which can be considered as a light virtu
 然后是若狭。美啊。除了人美，想必剧组是想通过这个角色，表现出人“善”的一面。我们可以看到，这个“善”显然也不是完美的，而存在缺陷。若狭对阿修罗虽好，但实际上心底里还是没把他当人看，对其心底里是不信任的，这从之前她在阿修罗面前洗澡，阿修罗伤了恋人后将其赶走，以及最后她拒绝马肉那里可以看出。这个造成的结果，就是自己最终饿死，阿修罗也被追杀。
 再就是剧中高僧的形象。高僧出场不多，但每次都是对剧情以及阿修罗的成长起到关键性的推动作用。我想这部电影想歌颂的，便是这种即便看清这乱世本质，仍能维持本心（仍保持“人”的状态），这样人类进步的曙光吧。阿修罗在最后，也悟到这一点，成为一代高僧。
 由于对人性阴暗面的揭露，阴暗的基调，本片也收到了一些批评。也有批评其剧情俗套，或是过于说教，为了宣传宗教等等的声音。但总之，我是觉得，能引人思考的片子，不管你喜不喜欢，当属上乘作品。
-以上便是近期的三篇简评。均为个人观点，还望与诸位多多交流。</p></div><footer class=entry-footer><span title='2017-08-29 00:00:00 +0000 UTC'>August 29, 2017</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Frederick</footer><a class=entry-link aria-label="post link to 简评三则" href=/posts/jian-ping-san-ze/></a></article><article class=post-entry><header class=entry-header><h2>时间的魔法</h2></header><div class=entry-content><p>前言-闲扯 标题致敬的成分并不太多，更多还是取了本意，主要集中讨论自己的感想。
+以上便是近期的三篇简评。均为个人观点，还望与诸位多多交流。</div><div class="post-footer">
+        <a href="/posts/jian-ping-san-ze/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/life/">Life</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/magic-of-time/">时间的魔法</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://ysmiles.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Frederick</a></span>&nbsp;<span class="post-publish">published on <time datetime="2017-06-29">2017-06-29</time></span></div><div class="content">前言-闲扯 标题致敬的成分并不太多，更多还是取了本意，主要集中讨论自己的感想。
 其实构思这篇已经有好久，奈何即使是最近相对较闲一点，但自己实在是挺拖延的，就拖到了现在。 写于满25周岁之际，权当阶段性总结和展望。
 可以看到这个博客久疏更新，除去某些众所周知的因素，自身的执行力方面还有待加强。 也想过搞个微信公众号或者知乎上更点内容，后来感觉还是这里各方面可能更自由一些，之后有些内容若自己觉得好会转载到其他平台。 当然，这里也不会胡乱黑我大天朝。即使用的外网服务器，自定义的域名建的站，某组织想治还是治的了，暂也不须细说。 整体上来看，自建网站的优势在于内容、版式自由，不会莫名奇妙的违规，而被删文禁评论，缺点是信息传播比较难且慢；社交平台的优势在于社区的社交氛围，信息交流快。 话说回来，有朋友QQ空间写文也不见得知识水平就低了，本质还是内容决定了品味，各位自行取舍便好。
 写作计划 距离上次真正写自己喜欢的东西已经一年多有余，不由感叹，越是长大，越是觉得时间过的快，这也是拟此标题的部分原因。 上次介绍了可谓是本人最喜爱的动画系列作品，新世纪福音战士（Evangalion）。近期若有机会，会将其再排排版发到这里。
@@ -52,7 +165,12 @@ Docker is a very useful container tool, which can be considered as a light virtu
 再说说国内。一起说好了，关注的人肯定也基本都有了解，一个是北电，一个是乒乓。 前者反映出国内娱乐圈的一些情况，后者反映出国内体育圈的一些情况。 这两个圈出了名的来钱，也是出了名的乱。 问题其实也挺相似，一是官僚主义，二是规则（法律法规等）的不健全。 就个人经历来讲，在美国前者也有，至少我去年时是被所在学校一些机构的人坑的挺惨，差点学籍都消了； 后者美国作为发达国家确实要做的好得多，但是方便社会高层次的人，各种规则细致入微，导致读书少的社会底层人士无法弄懂，只好花钱请律师一类，然而穷人又没钱请的起好律师，也是一个问题。 总归作为社会性的人类来讲，有法可依显然比无法可依要好点。
 这两个事件让人寒心的，事件本身当然算，但我们还不能确定真相，因为大体上我们只看到了片面的发言； 另外有两点，一点是官方不作回复，直接禁言禁转发，撤销热搜关键字等行为，二是某些洗地的人的言论。
 第一点来看，即使我们所知未必为事件全貌，但可以确定的是这背后必有些猫腻，否则，为啥不让权威机关直接公布那些是谣言？ 封禁的那些微博内容，究竟是违背了哪条法律法规？直接就违规，或删掉，或禁转发，或禁回复，吃相太难看。 截至目前，在郝劲松的微博上，好多为乒乓发生的微博都是这样的下场。 这是个知名人士，若一般p民，还不直接封号了。
-第二点是拿民族主义大义来洗地的，昨天看了一条回复，大概有两个论点： 1.中国建国以来这么多冤假错案，郝律师你管的过来么？2.（针对罢赛行为）把个人利益放在国家利益之上是要反对的。 简直狗屁不通！ 错误就是错误，为什么就得过且过，放任不管？照这个逻辑，那么多违法犯罪的，管的过来么，不如不管了？笑话。 这个社会，有时还真得有这么些较真的人。了解到这位律师当年因火车上卖水不给发票状告铁路局，而且胜诉后，更是对其表示钦佩。 关于个人利益和国家利益，个人对“国家利益高于个人利益”倒没什么意见。 但且不论运动员们并没有得到什么利益，反倒是被训了还出来道歉，结果被带个仅为追求个人利益的帽子； 某局在重大比赛之前换帅，这就符合国家利益了。 叫我来说，以一身正气，对抗乱搞的不正之风，反而是彰显了我国运动员的风骨。 这段经历，多年后未尝不能在世界体坛留下好的印象，这才是国家利益的体现。 另外就是，还请某些人回去翻翻党章，三个代表读一遍。 每个人个人的利益不能确保，又谈何国家利益？ 外国人还不是只会因为看到了咱们一个个的个人活的精彩，才会说中国牛逼？...</p></div><footer class=entry-footer><span title='2017-06-29 00:00:00 +0000 UTC'>June 29, 2017</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Frederick</footer><a class=entry-link aria-label="post link to 时间的魔法" href=/posts/magic-of-time/></a></article><article class=post-entry><header class=entry-header><h2>ARP与ARP欺骗</h2></header><div class=entry-content><p>至少四年以前写的。还是有些借鉴意义，稍微编辑了一下，发布于此。加了个tag OldStory。
+第二点是拿民族主义大义来洗地的，昨天看了一条回复，大概有两个论点： 1.中国建国以来这么多冤假错案，郝律师你管的过来么？2.（针对罢赛行为）把个人利益放在国家利益之上是要反对的。 简直狗屁不通！ 错误就是错误，为什么就得过且过，放任不管？照这个逻辑，那么多违法犯罪的，管的过来么，不如不管了？笑话。 这个社会，有时还真得有这么些较真的人。了解到这位律师当年因火车上卖水不给发票状告铁路局，而且胜诉后，更是对其表示钦佩。 关于个人利益和国家利益，个人对“国家利益高于个人利益”倒没什么意见。 但且不论运动员们并没有得到什么利益，反倒是被训了还出来道歉，结果被带个仅为追求个人利益的帽子； 某局在重大比赛之前换帅，这就符合国家利益了。 叫我来说，以一身正气，对抗乱搞的不正之风，反而是彰显了我国运动员的风骨。 这段经历，多年后未尝不能在世界体坛留下好的印象，这才是国家利益的体现。 另外就是，还请某些人回去翻翻党章，三个代表读一遍。 每个人个人的利益不能确保，又谈何国家利益？ 外国人还不是只会因为看到了咱们一个个的个人活的精彩，才会说中国牛逼？</div><div class="post-footer">
+        <a href="/posts/magic-of-time/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/life/">Life</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/arp/">ARP与ARP欺骗</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://ysmiles.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Frederick</a></span>&nbsp;<span class="post-publish">published on <time datetime="2016-10-18">2016-10-18</time></span></div><div class="content">至少四年以前写的。还是有些借鉴意义，稍微编辑了一下，发布于此。加了个tag OldStory。
 背景 紫菘10栋，上学期末，某位哥们的“肉机”中了ARP病毒，不停地伪装成我们10栋的网关218.197.219.254给其他计算机发包，至少导致了316以及附近的一排寝室无法上网，拨号软件mentohust不停的提示arp欺骗源的出现，都有一种想把他电脑砸掉的心了，可惜虽然知道他的MAC地址（当然也可能是某些病毒将其电脑伪装成的错误地址），但不知道是那一台。此次事件对我触动颇深，因此借这个网络基础课程的小论文的机会，给大家介绍一下ARP与ARP欺骗的原理，并提出一些解决方法。
 ARP协议 基本功能 ARP是地址转换协议（Address Resolution Protocol）的英文缩写，它是一个链路层协议，工作在OSI模型的第二层，在本层和硬件接口间进行联系，同时对上层（网络层）提供服务。 在以太网协议中规定，同一局域网中的一台主机要和另一台主机进行直接通信，必须要知道目标主机的MAC地址。而在TCP/IP协议栈中，网络层和传输层只关心目标主机的IP地址。这就导致在以太网中使用IP协议时，数据链路层的以太网协议接到上层IP协议提供的数据中，只包含目的主机的IP地址。于是需要一种方法，根据目的主机的IP地址，获得其MAC地址，ARP 协议就是用来确定这种对应关系的协议。所谓地址解析（address resolution）就是主机在发送帧前将目标IP地址转换成目标MAC地址的过程。 另外，当发送主机和目的主机不在同一个局域网中时，即便知道目的主机的MAC地址，两者也不能直接通信，必须经过路由转发才可以。所以此时，发送主机通过ARP协议获得的将不是目的主机的真实MAC地址，而是一台可以通往局域网外的路由器的某个端口的MAC地址。于是此后发送主机发往目的主机的所有帧，都将发往该路由器，通过它向外发送。这种情况称为ARP代理（ARP Proxy）。
 工作原理 ARP数据包根据接收对象不同，可分为两种： 广播包(Broadcast)。广播包目的MAC地址为FF-FF-FF-FF-FF-FF，交换机设备接收到广播包后，会把它转发给局域网内的所有主机。 非广播包(Non-Broadcast)。非广播包后只有指定的主机才能接收到。 ARP数据包根据功能不同，也可以分为两种： ARP请求包(ARP Request)。ARP请求包的作用是用于获取局域网内某IP对应的MAC地址。 ARP回复包(ARP Reply)。ARP回复包的作用是告知别的主机，本机的IP地址和MAC是什么。 广播的一般都是ARP请求包，非广播的一般都是ARP回复包。 假设局域网内有以下两台主机，主机名、IP地址、MAC地址分别如下：
@@ -62,9 +180,42 @@ ARP协议 基本功能 ARP是地址转换协议（Address Resolution Protocol）
 从上述局域网主机通讯过程可以看出，主机在两种情况下会保存、更新本机的ARP缓存表，接收到“ARP广播-请求”包时; 接收到“ARP非广播-回复”包时
 arp命令 格式：
 ARP -s inet_addr eth_addr [if_addr] ARP -d inet_addr [if_addr] ARP -a [inet_addr] [-N if_addr] [-v] 命令
--a 通过询问当前协议数据，显示当前 ARP 项。如果指定 inet_addr，则只显示指定计算机的 IP 地址和物理地址。如果不止一个网络接口使用 ARP，则显示每个 ARP 表的项。 -g 与 -a 相同。 -v 在详细模式下显示当前 ARP 项。所有无效项和环回接口上的项都将显示。 inet_addr 指定 Internet 地址。 -N if_addr 显示 if_addr 指定的网络接口的 ARP 项。 -d 删除 inet_addr 指定的主机。inet_addr 可以是通配符 *，以删除所有主机。 -s 添加主机并且将 Internet 地址 inet_addr与物理地址 eth_addr 相关联。物理地址是用连字符分隔的 6 个十六进制字节。该项是永久的。 eth_addr 指定物理地址。 if_addr 如果存在，此项指定地址转换表应修改的接口的 Internet 地址。如果不存在，则使用第一个适用的接口。 示例:...</p></div><footer class=entry-footer><span title='2016-10-18 00:00:00 +0000 UTC'>October 18, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Frederick</footer><a class=entry-link aria-label="post link to ARP与ARP欺骗" href=/posts/arp/></a></article><article class=post-entry><header class=entry-header><h2>Multiple routers bridge connection</h2></header><div class=entry-content><p>I have 2 wireless routers (R1, R2) in my local area network (LAN). R1 is the main router, has IP 192.168.0.1 and DHCP address pool 192.168.0.100~199. R2 is in bridge mode and connects with R1. R2 has IP 192.168.1.253, and DHCP address pool 192.168.1.100~199 (actually DHCP service is now disabled automatically).
-I have a problem. When I use a device, say my PC, to connect to Internet from R2, I get an IP 192....</p></div><footer class=entry-footer><span title='2016-09-23 00:00:00 +0000 UTC'>September 23, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Frederick</footer><a class=entry-link aria-label="post link to Multiple routers bridge connection " href=/posts/multiple-routers-bridge-connection/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=/>«&nbsp;Prev&nbsp;</a>
-<a class=next href=/page/3/>Next&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>&copy; 2023 <a href>YSMILES HOME</a></span>
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>
+-a 通过询问当前协议数据，显示当前 ARP 项。如果指定 inet_addr，则只显示指定计算机的 IP 地址和物理地址。如果不止一个网络接口使用 ARP，则显示每个 ARP 表的项。 -g 与 -a 相同。 -v 在详细模式下显示当前 ARP 项。所有无效项和环回接口上的项都将显示。 inet_addr 指定 Internet 地址。 -N if_addr 显示 if_addr 指定的网络接口的 ARP 项。 -d 删除 inet_addr 指定的主机。inet_addr 可以是通配符 *，以删除所有主机。 -s 添加主机并且将 Internet 地址 inet_addr与物理地址 eth_addr 相关联。物理地址是用连字符分隔的 6 个十六进制字节。该项是永久的。 eth_addr 指定物理地址。 if_addr 如果存在，此项指定地址转换表应修改的接口的 Internet 地址。如果不存在，则使用第一个适用的接口。 示例:</div><div class="post-footer">
+        <a href="/posts/arp/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/arp/">ARP</a>,&nbsp;<a href="/tags/network/">Network</a>,&nbsp;<a href="/tags/oldstory/">OldStory</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/multiple-routers-bridge-connection/">Multiple routers bridge connection </a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://ysmiles.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Frederick</a></span>&nbsp;<span class="post-publish">published on <time datetime="2016-09-23">2016-09-23</time></span></div><div class="content">I have 2 wireless routers (R1, R2) in my local area network (LAN). R1 is the main router, has IP 192.168.0.1 and DHCP address pool 192.168.0.100~199. R2 is in bridge mode and connects with R1. R2 has IP 192.168.1.253, and DHCP address pool 192.168.1.100~199 (actually DHCP service is now disabled automatically).
+I have a problem. When I use a device, say my PC, to connect to Internet from R2, I get an IP 192.</div><div class="post-footer">
+        <a href="/posts/multiple-routers-bridge-connection/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/router/">Router</a>,&nbsp;<a href="/tags/network/">Network</a></div></div>
+</article><ul class="pagination"><li class="page-item ">
+                    <span class="page-link">
+                        <a href="/">1</a>
+                    </span>
+                </li><li class="page-item active">
+                    <span class="page-link">
+                        <a href="/page/2/">2</a>
+                    </span>
+                </li><li class="page-item ">
+                    <span class="page-link">
+                        <a href="/page/3/">3</a>
+                    </span>
+                </li><li class="page-item ">
+                    <span class="page-link">
+                        <a href="/page/4/">4</a>
+                    </span>
+                </li></ul></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://ysmiles.com" target="_blank">Frederick</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"data":{"id-1":"hidden space of ysmiles"},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

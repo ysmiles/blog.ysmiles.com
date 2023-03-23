@@ -1,24 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>ARP on YSMILES HOME</title>
-    <link>/tags/arp/</link>
-    <description>Recent content in ARP on YSMILES HOME</description>
-    <image>
-      <title>YSMILES HOME</title>
-      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 18 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="/tags/arp/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ARP与ARP欺骗</title>
-      <link>/posts/arp/</link>
-      <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/arp/</guid>
-      <description>至少四年以前写的。还是有些借鉴意义，稍微编辑了一下，发布于此。加了个tag OldStory。
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>ARP - Tag - ysmiles home new</title>
+        <link>https://ysmiles.com/tags/arp/</link>
+        <description>ARP - Tag - ysmiles home new</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>fromblog@ysmiles.com (Frederick)</managingEditor>
+            <webMaster>fromblog@ysmiles.com (Frederick)</webMaster><copyright>copyright test</copyright><lastBuildDate>Tue, 18 Oct 2016 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ysmiles.com/tags/arp/" rel="self" type="application/rss+xml" /><item>
+    <title>ARP与ARP欺骗</title>
+    <link>https://ysmiles.com/posts/arp/</link>
+    <pubDate>Tue, 18 Oct 2016 00:00:00 &#43;0000</pubDate>
+    <author>Frederick</author>
+    <guid>https://ysmiles.com/posts/arp/</guid>
+    <description><![CDATA[至少四年以前写的。还是有些借鉴意义，稍微编辑了一下，发布于此。加了个tag OldStory。
 背景 紫菘10栋，上学期末，某位哥们的“肉机”中了ARP病毒，不停地伪装成我们10栋的网关218.197.219.254给其他计算机发包，至少导致了316以及附近的一排寝室无法上网，拨号软件mentohust不停的提示arp欺骗源的出现，都有一种想把他电脑砸掉的心了，可惜虽然知道他的MAC地址（当然也可能是某些病毒将其电脑伪装成的错误地址），但不知道是那一台。此次事件对我触动颇深，因此借这个网络基础课程的小论文的机会，给大家介绍一下ARP与ARP欺骗的原理，并提出一些解决方法。
 ARP协议 基本功能 ARP是地址转换协议（Address Resolution Protocol）的英文缩写，它是一个链路层协议，工作在OSI模型的第二层，在本层和硬件接口间进行联系，同时对上层（网络层）提供服务。 在以太网协议中规定，同一局域网中的一台主机要和另一台主机进行直接通信，必须要知道目标主机的MAC地址。而在TCP/IP协议栈中，网络层和传输层只关心目标主机的IP地址。这就导致在以太网中使用IP协议时，数据链路层的以太网协议接到上层IP协议提供的数据中，只包含目的主机的IP地址。于是需要一种方法，根据目的主机的IP地址，获得其MAC地址，ARP 协议就是用来确定这种对应关系的协议。所谓地址解析（address resolution）就是主机在发送帧前将目标IP地址转换成目标MAC地址的过程。 另外，当发送主机和目的主机不在同一个局域网中时，即便知道目的主机的MAC地址，两者也不能直接通信，必须经过路由转发才可以。所以此时，发送主机通过ARP协议获得的将不是目的主机的真实MAC地址，而是一台可以通往局域网外的路由器的某个端口的MAC地址。于是此后发送主机发往目的主机的所有帧，都将发往该路由器，通过它向外发送。这种情况称为ARP代理（ARP Proxy）。
 工作原理 ARP数据包根据接收对象不同，可分为两种： 广播包(Broadcast)。广播包目的MAC地址为FF-FF-FF-FF-FF-FF，交换机设备接收到广播包后，会把它转发给局域网内的所有主机。 非广播包(Non-Broadcast)。非广播包后只有指定的主机才能接收到。 ARP数据包根据功能不同，也可以分为两种： ARP请求包(ARP Request)。ARP请求包的作用是用于获取局域网内某IP对应的MAC地址。 ARP回复包(ARP Reply)。ARP回复包的作用是告知别的主机，本机的IP地址和MAC是什么。 广播的一般都是ARP请求包，非广播的一般都是ARP回复包。 假设局域网内有以下两台主机，主机名、IP地址、MAC地址分别如下：
@@ -28,8 +20,7 @@ ARP协议 基本功能 ARP是地址转换协议（Address Resolution Protocol）
 从上述局域网主机通讯过程可以看出，主机在两种情况下会保存、更新本机的ARP缓存表，接收到“ARP广播-请求”包时; 接收到“ARP非广播-回复”包时
 arp命令 格式：
 ARP -s inet_addr eth_addr [if_addr] ARP -d inet_addr [if_addr] ARP -a [inet_addr] [-N if_addr] [-v] 命令
--a 通过询问当前协议数据，显示当前 ARP 项。如果指定 inet_addr，则只显示指定计算机的 IP 地址和物理地址。如果不止一个网络接口使用 ARP，则显示每个 ARP 表的项。 -g 与 -a 相同。 -v 在详细模式下显示当前 ARP 项。所有无效项和环回接口上的项都将显示。 inet_addr 指定 Internet 地址。 -N if_addr 显示 if_addr 指定的网络接口的 ARP 项。 -d 删除 inet_addr 指定的主机。inet_addr 可以是通配符 *，以删除所有主机。 -s 添加主机并且将 Internet 地址 inet_addr与物理地址 eth_addr 相关联。物理地址是用连字符分隔的 6 个十六进制字节。该项是永久的。 eth_addr 指定物理地址。 if_addr 如果存在，此项指定地址转换表应修改的接口的 Internet 地址。如果不存在，则使用第一个适用的接口。 示例:</description>
-    </item>
-    
-  </channel>
+-a 通过询问当前协议数据，显示当前 ARP 项。如果指定 inet_addr，则只显示指定计算机的 IP 地址和物理地址。如果不止一个网络接口使用 ARP，则显示每个 ARP 表的项。 -g 与 -a 相同。 -v 在详细模式下显示当前 ARP 项。所有无效项和环回接口上的项都将显示。 inet_addr 指定 Internet 地址。 -N if_addr 显示 if_addr 指定的网络接口的 ARP 项。 -d 删除 inet_addr 指定的主机。inet_addr 可以是通配符 *，以删除所有主机。 -s 添加主机并且将 Internet 地址 inet_addr与物理地址 eth_addr 相关联。物理地址是用连字符分隔的 6 个十六进制字节。该项是永久的。 eth_addr 指定物理地址。 if_addr 如果存在，此项指定地址转换表应修改的接口的 Internet 地址。如果不存在，则使用第一个适用的接口。 示例:]]></description>
+</item>
+</channel>
 </rss>

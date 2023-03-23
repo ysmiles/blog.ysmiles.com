@@ -1,32 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Rust on YSMILES HOME</title>
-    <link>/tags/rust/</link>
-    <description>Recent content in Rust on YSMILES HOME</description>
-    <image>
-      <title>YSMILES HOME</title>
-      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 06 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/rust/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>HTTP server inside a docker container</title>
-      <link>/posts/http-server-inside-a-docker-container/</link>
-      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/http-server-inside-a-docker-container/</guid>
-      <description>Introduction This article mainly focus on how to run a HTTP server inside a docer container. The key point is port mapping.
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Rust - Tag - ysmiles home new</title>
+        <link>https://ysmiles.com/tags/rust/</link>
+        <description>Rust - Tag - ysmiles home new</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>fromblog@ysmiles.com (Frederick)</managingEditor>
+            <webMaster>fromblog@ysmiles.com (Frederick)</webMaster><copyright>copyright test</copyright><lastBuildDate>Wed, 06 Dec 2017 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ysmiles.com/tags/rust/" rel="self" type="application/rss+xml" /><item>
+    <title>HTTP server inside a docker container</title>
+    <link>https://ysmiles.com/posts/http-server-inside-a-docker-container/</link>
+    <pubDate>Wed, 06 Dec 2017 00:00:00 &#43;0000</pubDate>
+    <author>Frederick</author>
+    <guid>https://ysmiles.com/posts/http-server-inside-a-docker-container/</guid>
+    <description><![CDATA[Introduction This article mainly focus on how to run a HTTP server inside a docer container. The key point is port mapping.
 Basic setup I skipped installation of docker at ubuntu here. Please refer to my last docker note.
 For server example, I have some in my github.
 C version
 Python flask
 Rust version
 Here I choose Rust version for example.
-Run Rust docker # pull rust official image to local docker pull rust # run a container docker run -itd -p 8080:5000 --name httpserver rust Here -itd means &amp;lsquo;interactive&amp;rsquo;, &amp;lsquo;TTY&amp;rsquo; and &amp;lsquo;detached&amp;rsquo;, which are running options of container.</description>
-    </item>
-    
-  </channel>
+Run Rust docker # pull rust official image to local docker pull rust # run a container docker run -itd -p 8080:5000 --name httpserver rust Here -itd means &lsquo;interactive&rsquo;, &lsquo;TTY&rsquo; and &lsquo;detached&rsquo;, which are running options of container.]]></description>
+</item>
+</channel>
 </rss>

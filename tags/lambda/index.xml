@@ -1,26 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>lambda on YSMILES HOME</title>
-    <link>/tags/lambda/</link>
-    <description>Recent content in lambda on YSMILES HOME</description>
-    <image>
-      <title>YSMILES HOME</title>
-      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 19 Apr 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Generic recursive lambda in C&#43;&#43;14</title>
-      <link>/posts/generic-recursive-lambda-in-c&#43;&#43;14/</link>
-      <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/generic-recursive-lambda-in-c&#43;&#43;14/</guid>
-      <description>When we practice LeetCode questions, we always need to write a helper recursive function outside the main solution function. For example, to find the max value in a binary tree, we can have the following codes: (method-1)
-class Solution { // pre-order DFS void helper(TreeNode *root, int &amp;amp;ret) { if (!root) return; ret = std::max(ret, root-&amp;gt;val); helper(root-&amp;gt;left); helper(root-&amp;gt;right); } public: int findMax(TreeNode *root) { int maxval = std::numeric_limits&amp;lt;int&amp;gt;::min(); helper(root, maxval); return maxval; } }; Sometimes we don&amp;rsquo;t want to write the helper outside our working function, i.</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>lambda - Tag - ysmiles home new</title>
+        <link>https://ysmiles.com/tags/lambda/</link>
+        <description>lambda - Tag - ysmiles home new</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>fromblog@ysmiles.com (Frederick)</managingEditor>
+            <webMaster>fromblog@ysmiles.com (Frederick)</webMaster><copyright>copyright test</copyright><lastBuildDate>Thu, 19 Apr 2018 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ysmiles.com/tags/lambda/" rel="self" type="application/rss+xml" /><item>
+    <title>Generic recursive lambda in C&#43;&#43;14</title>
+    <link>https://ysmiles.com/posts/generic-recursive-lambda-in-c&#43;&#43;14/</link>
+    <pubDate>Thu, 19 Apr 2018 00:00:00 &#43;0000</pubDate>
+    <author>Frederick</author>
+    <guid>https://ysmiles.com/posts/generic-recursive-lambda-in-c&#43;&#43;14/</guid>
+    <description><![CDATA[When we practice LeetCode questions, we always need to write a helper recursive function outside the main solution function. For example, to find the max value in a binary tree, we can have the following codes: (method-1)
+class Solution { // pre-order DFS  void helper(TreeNode *root, int &amp;ret) { if (!root) return; ret = std::max(ret, root-&gt;val); helper(root-&gt;left); helper(root-&gt;right); } public: int findMax(TreeNode *root) { int maxval = std::numeric_limits&lt;int&gt;::min(); helper(root, maxval); return maxval; } }; Sometimes we don&rsquo;t want to write the helper outside our working function, i.]]></description>
+</item>
+</channel>
 </rss>

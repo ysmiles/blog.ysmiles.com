@@ -1,24 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Life on YSMILES HOME</title>
-    <link>/tags/life/</link>
-    <description>Recent content in Life on YSMILES HOME</description>
-    <image>
-      <title>YSMILES HOME</title>
-      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 29 Aug 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/life/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>简评三则</title>
-      <link>/posts/jian-ping-san-ze/</link>
-      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/jian-ping-san-ze/</guid>
-      <description>每每看完一部有意思的作品，总有些想说的。早有意写点评论，最初是想写长，后来发现写长有两个弊端，一个是花的时间较多；二是自身的文字功力也不够。以防无病呻吟，这次尝试一下简要些的评论。
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Life - Tag - ysmiles home new</title>
+        <link>https://ysmiles.com/tags/life/</link>
+        <description>Life - Tag - ysmiles home new</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>fromblog@ysmiles.com (Frederick)</managingEditor>
+            <webMaster>fromblog@ysmiles.com (Frederick)</webMaster><copyright>copyright test</copyright><lastBuildDate>Tue, 29 Aug 2017 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ysmiles.com/tags/life/" rel="self" type="application/rss+xml" /><item>
+    <title>简评三则</title>
+    <link>https://ysmiles.com/posts/jian-ping-san-ze/</link>
+    <pubDate>Tue, 29 Aug 2017 00:00:00 &#43;0000</pubDate>
+    <author>Frederick</author>
+    <guid>https://ysmiles.com/posts/jian-ping-san-ze/</guid>
+    <description><![CDATA[每每看完一部有意思的作品，总有些想说的。早有意写点评论，最初是想写长，后来发现写长有两个弊端，一个是花的时间较多；二是自身的文字功力也不够。以防无病呻吟，这次尝试一下简要些的评论。
 射雕（2017） 金庸先生的作品我向来是非常推崇的，他的所有武侠作品，我应该都有拜读过。其中最喜爱的当属《天龙八部》和《笑傲江湖》两部，在此不表。喜爱天龙八部的，可以看看水天王x的解读。
 说到射雕三部曲，是我最先看的金庸先生的作品。不过实际上，初中时机缘巧合下，我先看的是《神雕侠侣》，之后才是《射雕英雄传》和《倚天屠龙记》。就小说本身来讲，我认为射雕是最能代表金庸武侠小说整个基调的作品，整部给人的感觉，怎么说呢，“中正”似乎比较合适。无论是从角色塑造，还是剧情安排情节设计，我觉得都是中规中矩（褒义，也并不代表没有起承转合和悬念等，只是相对于其之后的一些作品，没有那么出彩而已）。
 此次是评今年新拍的电视剧，小说那边就暂时放下。首先给个整体评分，6.5/10。这个分数，代表着及格了，不至于说是拍的很烂，但许多方面，尚有许多可以提高的空间。
@@ -54,16 +46,15 @@
 然后是若狭。美啊。除了人美，想必剧组是想通过这个角色，表现出人“善”的一面。我们可以看到，这个“善”显然也不是完美的，而存在缺陷。若狭对阿修罗虽好，但实际上心底里还是没把他当人看，对其心底里是不信任的，这从之前她在阿修罗面前洗澡，阿修罗伤了恋人后将其赶走，以及最后她拒绝马肉那里可以看出。这个造成的结果，就是自己最终饿死，阿修罗也被追杀。
 再就是剧中高僧的形象。高僧出场不多，但每次都是对剧情以及阿修罗的成长起到关键性的推动作用。我想这部电影想歌颂的，便是这种即便看清这乱世本质，仍能维持本心（仍保持“人”的状态），这样人类进步的曙光吧。阿修罗在最后，也悟到这一点，成为一代高僧。
 由于对人性阴暗面的揭露，阴暗的基调，本片也收到了一些批评。也有批评其剧情俗套，或是过于说教，为了宣传宗教等等的声音。但总之，我是觉得，能引人思考的片子，不管你喜不喜欢，当属上乘作品。
-以上便是近期的三篇简评。均为个人观点，还望与诸位多多交流。</description>
-    </item>
-    
-    <item>
-      <title>时间的魔法</title>
-      <link>/posts/magic-of-time/</link>
-      <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/magic-of-time/</guid>
-      <description>前言-闲扯 标题致敬的成分并不太多，更多还是取了本意，主要集中讨论自己的感想。
+以上便是近期的三篇简评。均为个人观点，还望与诸位多多交流。]]></description>
+</item>
+<item>
+    <title>时间的魔法</title>
+    <link>https://ysmiles.com/posts/magic-of-time/</link>
+    <pubDate>Thu, 29 Jun 2017 00:00:00 &#43;0000</pubDate>
+    <author>Frederick</author>
+    <guid>https://ysmiles.com/posts/magic-of-time/</guid>
+    <description><![CDATA[前言-闲扯 标题致敬的成分并不太多，更多还是取了本意，主要集中讨论自己的感想。
 其实构思这篇已经有好久，奈何即使是最近相对较闲一点，但自己实在是挺拖延的，就拖到了现在。 写于满25周岁之际，权当阶段性总结和展望。
 可以看到这个博客久疏更新，除去某些众所周知的因素，自身的执行力方面还有待加强。 也想过搞个微信公众号或者知乎上更点内容，后来感觉还是这里各方面可能更自由一些，之后有些内容若自己觉得好会转载到其他平台。 当然，这里也不会胡乱黑我大天朝。即使用的外网服务器，自定义的域名建的站，某组织想治还是治的了，暂也不须细说。 整体上来看，自建网站的优势在于内容、版式自由，不会莫名奇妙的违规，而被删文禁评论，缺点是信息传播比较难且慢；社交平台的优势在于社区的社交氛围，信息交流快。 话说回来，有朋友QQ空间写文也不见得知识水平就低了，本质还是内容决定了品味，各位自行取舍便好。
 写作计划 距离上次真正写自己喜欢的东西已经一年多有余，不由感叹，越是长大，越是觉得时间过的快，这也是拟此标题的部分原因。 上次介绍了可谓是本人最喜爱的动画系列作品，新世纪福音战士（Evangalion）。近期若有机会，会将其再排排版发到这里。
@@ -80,27 +71,25 @@
 再说说国内。一起说好了，关注的人肯定也基本都有了解，一个是北电，一个是乒乓。 前者反映出国内娱乐圈的一些情况，后者反映出国内体育圈的一些情况。 这两个圈出了名的来钱，也是出了名的乱。 问题其实也挺相似，一是官僚主义，二是规则（法律法规等）的不健全。 就个人经历来讲，在美国前者也有，至少我去年时是被所在学校一些机构的人坑的挺惨，差点学籍都消了； 后者美国作为发达国家确实要做的好得多，但是方便社会高层次的人，各种规则细致入微，导致读书少的社会底层人士无法弄懂，只好花钱请律师一类，然而穷人又没钱请的起好律师，也是一个问题。 总归作为社会性的人类来讲，有法可依显然比无法可依要好点。
 这两个事件让人寒心的，事件本身当然算，但我们还不能确定真相，因为大体上我们只看到了片面的发言； 另外有两点，一点是官方不作回复，直接禁言禁转发，撤销热搜关键字等行为，二是某些洗地的人的言论。
 第一点来看，即使我们所知未必为事件全貌，但可以确定的是这背后必有些猫腻，否则，为啥不让权威机关直接公布那些是谣言？ 封禁的那些微博内容，究竟是违背了哪条法律法规？直接就违规，或删掉，或禁转发，或禁回复，吃相太难看。 截至目前，在郝劲松的微博上，好多为乒乓发生的微博都是这样的下场。 这是个知名人士，若一般p民，还不直接封号了。
-第二点是拿民族主义大义来洗地的，昨天看了一条回复，大概有两个论点： 1.中国建国以来这么多冤假错案，郝律师你管的过来么？2.（针对罢赛行为）把个人利益放在国家利益之上是要反对的。 简直狗屁不通！ 错误就是错误，为什么就得过且过，放任不管？照这个逻辑，那么多违法犯罪的，管的过来么，不如不管了？笑话。 这个社会，有时还真得有这么些较真的人。了解到这位律师当年因火车上卖水不给发票状告铁路局，而且胜诉后，更是对其表示钦佩。 关于个人利益和国家利益，个人对“国家利益高于个人利益”倒没什么意见。 但且不论运动员们并没有得到什么利益，反倒是被训了还出来道歉，结果被带个仅为追求个人利益的帽子； 某局在重大比赛之前换帅，这就符合国家利益了。 叫我来说，以一身正气，对抗乱搞的不正之风，反而是彰显了我国运动员的风骨。 这段经历，多年后未尝不能在世界体坛留下好的印象，这才是国家利益的体现。 另外就是，还请某些人回去翻翻党章，三个代表读一遍。 每个人个人的利益不能确保，又谈何国家利益？ 外国人还不是只会因为看到了咱们一个个的个人活的精彩，才会说中国牛逼？</description>
-    </item>
-    
-    <item>
-      <title>有关迷之优越感的小故事</title>
-      <link>/posts/youyuegan/</link>
-      <pubDate>Sun, 07 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/youyuegan/</guid>
-      <description>今天看到p站上一张出现了某种生物，于是当然有人去众筹时间。然后另一些人就不高兴了。
-作者暂时也没说啥； 顶多算是与内容不相干的评论吧，也没有（或者说我没看出）恶意； 说让“+1s”的立即去死的，说这些人恶化了p站环境的，实在也不见得比他们口中说的那些人高到哪里去； 若按照p站规定不能发，或作者不喜欢，可以举报/联系作者删掉就是，结果上来就往死里骂。 这就是所谓的优越感么？括弧笑:)
-原图在此。</description>
-    </item>
-    
-    <item>
-      <title>温柔 - 翻唱</title>
-      <link>/posts/wenrou/</link>
-      <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/wenrou/</guid>
-      <description>尝试发一下翻唱。原唱为五月天。
+第二点是拿民族主义大义来洗地的，昨天看了一条回复，大概有两个论点： 1.中国建国以来这么多冤假错案，郝律师你管的过来么？2.（针对罢赛行为）把个人利益放在国家利益之上是要反对的。 简直狗屁不通！ 错误就是错误，为什么就得过且过，放任不管？照这个逻辑，那么多违法犯罪的，管的过来么，不如不管了？笑话。 这个社会，有时还真得有这么些较真的人。了解到这位律师当年因火车上卖水不给发票状告铁路局，而且胜诉后，更是对其表示钦佩。 关于个人利益和国家利益，个人对“国家利益高于个人利益”倒没什么意见。 但且不论运动员们并没有得到什么利益，反倒是被训了还出来道歉，结果被带个仅为追求个人利益的帽子； 某局在重大比赛之前换帅，这就符合国家利益了。 叫我来说，以一身正气，对抗乱搞的不正之风，反而是彰显了我国运动员的风骨。 这段经历，多年后未尝不能在世界体坛留下好的印象，这才是国家利益的体现。 另外就是，还请某些人回去翻翻党章，三个代表读一遍。 每个人个人的利益不能确保，又谈何国家利益？ 外国人还不是只会因为看到了咱们一个个的个人活的精彩，才会说中国牛逼？]]></description>
+</item>
+<item>
+    <title>有关迷之优越感的小故事</title>
+    <link>https://ysmiles.com/posts/youyuegan/</link>
+    <pubDate>Sun, 07 Aug 2016 00:00:00 &#43;0000</pubDate>
+    <author>Frederick</author>
+    <guid>https://ysmiles.com/posts/youyuegan/</guid>
+    <description><![CDATA[今天看到p站上一张出现了某种生物，于是当然有人去众筹时间。然后另一些人就不高兴了。
+ 作者暂时也没说啥； 顶多算是与内容不相干的评论吧，也没有（或者说我没看出）恶意； 说让“+1s”的立即去死的，说这些人恶化了p站环境的，实在也不见得比他们口中说的那些人高到哪里去； 若按照p站规定不能发，或作者不喜欢，可以举报/联系作者删掉就是，结果上来就往死里骂。  这就是所谓的优越感么？括弧笑:)
+原图在此。]]></description>
+</item>
+<item>
+    <title>温柔 - 翻唱</title>
+    <link>https://ysmiles.com/posts/wenrou/</link>
+    <pubDate>Fri, 27 May 2016 00:00:00 &#43;0000</pubDate>
+    <author>Frederick</author>
+    <guid>https://ysmiles.com/posts/wenrou/</guid>
+    <description><![CDATA[尝试发一下翻唱。原唱为五月天。
 歌词：
 走在风中今天阳光 突然好温柔 天的温柔地的温柔 像你抱着我
 然后发现你的改变 孤单的今后 如果冷该怎么渡过
@@ -110,18 +99,16 @@
 不知道不明了不想要为什么我的心 那爱情的绮丽 总是在孤单里 再把我的最好的爱给你
 不知不觉不情不愿 又到巷子口 我没有哭也没有笑 因为这是梦
 没有预兆没有理由 你真的有说过 如果有就让你自由
-自由 这是我的温柔 这是我的温柔 &amp;hellip; 这是我的 温柔</description>
-    </item>
-    
-    <item>
-      <title>First Post - how to make a website by Jekyll</title>
-      <link>/posts/first-post/</link>
-      <pubDate>Tue, 17 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/first-post/</guid>
-      <description>Hello everyone! This is my first post. In this post, I will teach you how to make a website just like this one using Jekyll. Even if you know nothing about how to write a webpage, it will only take few minutes. In fact, I am also a green hand and not familiar with everything of Jekyll, but let&amp;rsquo;s study together.
-First, you could go to Burela&amp;rsquo;s House-O-Blog to find the easily way to install Jekyll by Chocolatey.</description>
-    </item>
-    
-  </channel>
+自由 这是我的温柔 这是我的温柔 &hellip; 这是我的 温柔]]></description>
+</item>
+<item>
+    <title>First Post - how to make a website by Jekyll</title>
+    <link>https://ysmiles.com/posts/first-post/</link>
+    <pubDate>Tue, 17 May 2016 00:00:00 &#43;0000</pubDate>
+    <author>YS</author>
+    <guid>https://ysmiles.com/posts/first-post/</guid>
+    <description><![CDATA[Hello everyone! This is my first post. In this post, I will teach you how to make a website just like this one using Jekyll. Even if you know nothing about how to write a webpage, it will only take few minutes. In fact, I am also a green hand and not familiar with everything of Jekyll, but let&rsquo;s study together.
+First, you could go to Burela&rsquo;s House-O-Blog to find the easily way to install Jekyll by Chocolatey.]]></description>
+</item>
+</channel>
 </rss>

@@ -1,26 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>gRPC on YSMILES HOME</title>
-    <link>/tags/grpc/</link>
-    <description>Recent content in gRPC on YSMILES HOME</description>
-    <image>
-      <title>YSMILES HOME</title>
-      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 05 Oct 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/grpc/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Run a basic gRPC example with Docker</title>
-      <link>/posts/run-a-basic-grpc-example-with-docker/</link>
-      <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/run-a-basic-grpc-example-with-docker/</guid>
-      <description>Introduction The purpose of this article is very simple. Just run a gRPC example in different Docker containers. Since it really costed me a lot of time, I&amp;rsquo;d like to keep records here.
-Docker is a very useful container tool, which can be considered as a light virtualization technique comparing to traditional virtual machine tools such as Virtualbox, VMware, etc. For more details about the differences between them, as well as the Docker&amp;rsquo;s basics, please refer this Stack Overflow question, the Digital Ocean tutorial, or the Docker official introduction.</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>gRPC - Tag - ysmiles home new</title>
+        <link>https://ysmiles.com/tags/grpc/</link>
+        <description>gRPC - Tag - ysmiles home new</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>fromblog@ysmiles.com (Frederick)</managingEditor>
+            <webMaster>fromblog@ysmiles.com (Frederick)</webMaster><copyright>copyright test</copyright><lastBuildDate>Thu, 05 Oct 2017 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ysmiles.com/tags/grpc/" rel="self" type="application/rss+xml" /><item>
+    <title>Run a basic gRPC example with Docker</title>
+    <link>https://ysmiles.com/posts/run-a-basic-grpc-example-with-docker/</link>
+    <pubDate>Thu, 05 Oct 2017 00:00:00 &#43;0000</pubDate>
+    <author>Frederick</author>
+    <guid>https://ysmiles.com/posts/run-a-basic-grpc-example-with-docker/</guid>
+    <description><![CDATA[Introduction The purpose of this article is very simple. Just run a gRPC example in different Docker containers. Since it really costed me a lot of time, I&rsquo;d like to keep records here.
+Docker is a very useful container tool, which can be considered as a light virtualization technique comparing to traditional virtual machine tools such as Virtualbox, VMware, etc. For more details about the differences between them, as well as the Docker&rsquo;s basics, please refer this Stack Overflow question, the Digital Ocean tutorial, or the Docker official introduction.]]></description>
+</item>
+</channel>
 </rss>
