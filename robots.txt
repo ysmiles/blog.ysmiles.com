@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: gh.ysmiles.com/sitemap.xml

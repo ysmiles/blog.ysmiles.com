@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on YSMILES HOME</title>
+    <link>gh.ysmiles.com/tags/</link>
+    <description>Recent content in Tags on YSMILES HOME</description>
+    <image>
+      <title>YSMILES HOME</title>
+      <url>gh.ysmiles.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>gh.ysmiles.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="gh.ysmiles.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm</title>
+      <link>gh.ysmiles.com/tags/algorithm/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>gh.ysmiles.com/tags/python/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>gh.ysmiles.com/tags/c&#43;&#43;/</link>
+      <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lambda</title>
+      <link>gh.ysmiles.com/tags/lambda/</link>
+      <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/lambda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>gh.ysmiles.com/tags/java/</link>
+      <pubDate>Sun, 24 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OOP</title>
+      <link>gh.ysmiles.com/tags/oop/</link>
+      <pubDate>Sun, 24 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/oop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>gh.ysmiles.com/tags/docker/</link>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTTP</title>
+      <link>gh.ysmiles.com/tags/http/</link>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/http/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>gh.ysmiles.com/tags/linux/</link>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>gh.ysmiles.com/tags/network/</link>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rust</title>
+      <link>gh.ysmiles.com/tags/rust/</link>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bitcoin</title>
+      <link>gh.ysmiles.com/tags/bitcoin/</link>
+      <pubDate>Sun, 22 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/bitcoin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNN</title>
+      <link>gh.ysmiles.com/tags/rnn/</link>
+      <pubDate>Sun, 22 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/rnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TensorFlow</title>
+      <link>gh.ysmiles.com/tags/tensorflow/</link>
+      <pubDate>Sun, 22 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gRPC</title>
+      <link>gh.ysmiles.com/tags/grpc/</link>
+      <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/grpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>gh.ysmiles.com/tags/life/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ARP</title>
+      <link>gh.ysmiles.com/tags/arp/</link>
+      <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/arp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OldStory</title>
+      <link>gh.ysmiles.com/tags/oldstory/</link>
+      <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/oldstory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Router</title>
+      <link>gh.ysmiles.com/tags/router/</link>
+      <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/router/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>gh.ysmiles.com/tags/vim/</link>
+      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>gh.ysmiles.com/tags/html/</link>
+      <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>gh.ysmiles.com/tags/music/</link>
+      <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SiteTest</title>
+      <link>gh.ysmiles.com/tags/sitetest/</link>
+      <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>gh.ysmiles.com/tags/sitetest/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
