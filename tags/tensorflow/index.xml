@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>TensorFlow on YSMILES HOME</title>
-    <link>gh.ysmiles.com/tags/tensorflow/</link>
+    <link>/tags/tensorflow/</link>
     <description>Recent content in TensorFlow on YSMILES HOME</description>
     <image>
       <title>YSMILES HOME</title>
-      <url>gh.ysmiles.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>gh.ysmiles.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Oct 2017 00:00:00 +0000</lastBuildDate><atom:link href="gh.ysmiles.com/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Oct 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bitcoin price prediction</title>
-      <link>gh.ysmiles.com/posts/bitcoin-price-prediction/</link>
+      <link>/posts/bitcoin-price-prediction/</link>
       <pubDate>Sun, 22 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>gh.ysmiles.com/posts/bitcoin-price-prediction/</guid>
+      <guid>/posts/bitcoin-price-prediction/</guid>
       <description>1. Introduction This is a small project to learn basics of TensorFlow and solving time series problems with RNN. For more details, please refer to the codes at Github: ysmiles.
 1.1 Time-series A time series is a series of data points indexed (or listed or graphed) in time order. Most commonly, a time series is a sequence taken at successive equally spaced points in time. Thus it is a sequence of discrete-time data.</description>
     </item>

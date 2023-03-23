@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Life on YSMILES HOME</title>
-    <link>gh.ysmiles.com/tags/life/</link>
+    <link>/tags/life/</link>
     <description>Recent content in Life on YSMILES HOME</description>
     <image>
       <title>YSMILES HOME</title>
-      <url>gh.ysmiles.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>gh.ysmiles.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Aug 2017 00:00:00 +0000</lastBuildDate><atom:link href="gh.ysmiles.com/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Aug 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>简评三则</title>
-      <link>gh.ysmiles.com/posts/jian-ping-san-ze/</link>
+      <link>/posts/jian-ping-san-ze/</link>
       <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>gh.ysmiles.com/posts/jian-ping-san-ze/</guid>
+      <guid>/posts/jian-ping-san-ze/</guid>
       <description>每每看完一部有意思的作品，总有些想说的。早有意写点评论，最初是想写长，后来发现写长有两个弊端，一个是花的时间较多；二是自身的文字功力也不够。以防无病呻吟，这次尝试一下简要些的评论。
 射雕（2017） 金庸先生的作品我向来是非常推崇的，他的所有武侠作品，我应该都有拜读过。其中最喜爱的当属《天龙八部》和《笑傲江湖》两部，在此不表。喜爱天龙八部的，可以看看水天王x的解读。
 说到射雕三部曲，是我最先看的金庸先生的作品。不过实际上，初中时机缘巧合下，我先看的是《神雕侠侣》，之后才是《射雕英雄传》和《倚天屠龙记》。就小说本身来讲，我认为射雕是最能代表金庸武侠小说整个基调的作品，整部给人的感觉，怎么说呢，“中正”似乎比较合适。无论是从角色塑造，还是剧情安排情节设计，我觉得都是中规中矩（褒义，也并不代表没有起承转合和悬念等，只是相对于其之后的一些作品，没有那么出彩而已）。
@@ -59,10 +59,10 @@
     
     <item>
       <title>时间的魔法</title>
-      <link>gh.ysmiles.com/posts/magic-of-time/</link>
+      <link>/posts/magic-of-time/</link>
       <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>gh.ysmiles.com/posts/magic-of-time/</guid>
+      <guid>/posts/magic-of-time/</guid>
       <description>前言-闲扯 标题致敬的成分并不太多，更多还是取了本意，主要集中讨论自己的感想。
 其实构思这篇已经有好久，奈何即使是最近相对较闲一点，但自己实在是挺拖延的，就拖到了现在。 写于满25周岁之际，权当阶段性总结和展望。
 可以看到这个博客久疏更新，除去某些众所周知的因素，自身的执行力方面还有待加强。 也想过搞个微信公众号或者知乎上更点内容，后来感觉还是这里各方面可能更自由一些，之后有些内容若自己觉得好会转载到其他平台。 当然，这里也不会胡乱黑我大天朝。即使用的外网服务器，自定义的域名建的站，某组织想治还是治的了，暂也不须细说。 整体上来看，自建网站的优势在于内容、版式自由，不会莫名奇妙的违规，而被删文禁评论，缺点是信息传播比较难且慢；社交平台的优势在于社区的社交氛围，信息交流快。 话说回来，有朋友QQ空间写文也不见得知识水平就低了，本质还是内容决定了品味，各位自行取舍便好。
@@ -85,10 +85,10 @@
     
     <item>
       <title>有关迷之优越感的小故事</title>
-      <link>gh.ysmiles.com/posts/youyuegan/</link>
+      <link>/posts/youyuegan/</link>
       <pubDate>Sun, 07 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>gh.ysmiles.com/posts/youyuegan/</guid>
+      <guid>/posts/youyuegan/</guid>
       <description>今天看到p站上一张出现了某种生物，于是当然有人去众筹时间。然后另一些人就不高兴了。
 作者暂时也没说啥； 顶多算是与内容不相干的评论吧，也没有（或者说我没看出）恶意； 说让“+1s”的立即去死的，说这些人恶化了p站环境的，实在也不见得比他们口中说的那些人高到哪里去； 若按照p站规定不能发，或作者不喜欢，可以举报/联系作者删掉就是，结果上来就往死里骂。 这就是所谓的优越感么？括弧笑:)
 原图在此。</description>
@@ -96,10 +96,10 @@
     
     <item>
       <title>温柔 - 翻唱</title>
-      <link>gh.ysmiles.com/posts/wenrou/</link>
+      <link>/posts/wenrou/</link>
       <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>gh.ysmiles.com/posts/wenrou/</guid>
+      <guid>/posts/wenrou/</guid>
       <description>尝试发一下翻唱。原唱为五月天。
 歌词：
 走在风中今天阳光 突然好温柔 天的温柔地的温柔 像你抱着我
@@ -115,10 +115,10 @@
     
     <item>
       <title>First Post - how to make a website by Jekyll</title>
-      <link>gh.ysmiles.com/posts/first-post/</link>
+      <link>/posts/first-post/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>gh.ysmiles.com/posts/first-post/</guid>
+      <guid>/posts/first-post/</guid>
       <description>Hello everyone! This is my first post. In this post, I will teach you how to make a website just like this one using Jekyll. Even if you know nothing about how to write a webpage, it will only take few minutes. In fact, I am also a green hand and not familiar with everything of Jekyll, but let&amp;rsquo;s study together.
 First, you could go to Burela&amp;rsquo;s House-O-Blog to find the easily way to install Jekyll by Chocolatey.</description>
     </item>

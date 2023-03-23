@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Rust on YSMILES HOME</title>
-    <link>gh.ysmiles.com/tags/rust/</link>
+    <link>/tags/rust/</link>
     <description>Recent content in Rust on YSMILES HOME</description>
     <image>
       <title>YSMILES HOME</title>
-      <url>gh.ysmiles.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>gh.ysmiles.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="gh.ysmiles.com/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTTP server inside a docker container</title>
-      <link>gh.ysmiles.com/posts/http-server-inside-a-docker-container/</link>
+      <link>/posts/http-server-inside-a-docker-container/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>gh.ysmiles.com/posts/http-server-inside-a-docker-container/</guid>
+      <guid>/posts/http-server-inside-a-docker-container/</guid>
       <description>Introduction This article mainly focus on how to run a HTTP server inside a docer container. The key point is port mapping.
 Basic setup I skipped installation of docker at ubuntu here. Please refer to my last docker note.
 For server example, I have some in my github.

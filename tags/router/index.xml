@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Router on YSMILES HOME</title>
-    <link>gh.ysmiles.com/tags/router/</link>
+    <link>/tags/router/</link>
     <description>Recent content in Router on YSMILES HOME</description>
     <image>
       <title>YSMILES HOME</title>
-      <url>gh.ysmiles.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>gh.ysmiles.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Sep 2016 00:00:00 +0000</lastBuildDate><atom:link href="gh.ysmiles.com/tags/router/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Sep 2016 00:00:00 +0000</lastBuildDate><atom:link href="/tags/router/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multiple routers bridge connection </title>
-      <link>gh.ysmiles.com/posts/multiple-routers-bridge-connection/</link>
+      <link>/posts/multiple-routers-bridge-connection/</link>
       <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>gh.ysmiles.com/posts/multiple-routers-bridge-connection/</guid>
+      <guid>/posts/multiple-routers-bridge-connection/</guid>
       <description>I have 2 wireless routers (R1, R2) in my local area network (LAN). R1 is the main router, has IP 192.168.0.1 and DHCP address pool 192.168.0.100~199. R2 is in bridge mode and connects with R1. R2 has IP 192.168.1.253, and DHCP address pool 192.168.1.100~199 (actually DHCP service is now disabled automatically).
 I have a problem. When I use a device, say my PC, to connect to Internet from R2, I get an IP 192.</description>
     </item>

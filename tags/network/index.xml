@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Network on YSMILES HOME</title>
-    <link>gh.ysmiles.com/tags/network/</link>
+    <link>/tags/network/</link>
     <description>Recent content in Network on YSMILES HOME</description>
     <image>
       <title>YSMILES HOME</title>
-      <url>gh.ysmiles.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>gh.ysmiles.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="gh.ysmiles.com/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/network/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTTP server inside a docker container</title>
-      <link>gh.ysmiles.com/posts/http-server-inside-a-docker-container/</link>
+      <link>/posts/http-server-inside-a-docker-container/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>gh.ysmiles.com/posts/http-server-inside-a-docker-container/</guid>
+      <guid>/posts/http-server-inside-a-docker-container/</guid>
       <description>Introduction This article mainly focus on how to run a HTTP server inside a docer container. The key point is port mapping.
 Basic setup I skipped installation of docker at ubuntu here. Please refer to my last docker note.
 For server example, I have some in my github.
@@ -30,20 +30,20 @@ Run Rust docker # pull rust official image to local docker pull rust # run a con
     
     <item>
       <title>Run a basic gRPC example with Docker</title>
-      <link>gh.ysmiles.com/posts/run-a-basic-grpc-example-with-docker/</link>
+      <link>/posts/run-a-basic-grpc-example-with-docker/</link>
       <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>gh.ysmiles.com/posts/run-a-basic-grpc-example-with-docker/</guid>
+      <guid>/posts/run-a-basic-grpc-example-with-docker/</guid>
       <description>Introduction The purpose of this article is very simple. Just run a gRPC example in different Docker containers. Since it really costed me a lot of time, I&amp;rsquo;d like to keep records here.
 Docker is a very useful container tool, which can be considered as a light virtualization technique comparing to traditional virtual machine tools such as Virtualbox, VMware, etc. For more details about the differences between them, as well as the Docker&amp;rsquo;s basics, please refer this Stack Overflow question, the Digital Ocean tutorial, or the Docker official introduction.</description>
     </item>
     
     <item>
       <title>ARP与ARP欺骗</title>
-      <link>gh.ysmiles.com/posts/arp/</link>
+      <link>/posts/arp/</link>
       <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>gh.ysmiles.com/posts/arp/</guid>
+      <guid>/posts/arp/</guid>
       <description>至少四年以前写的。还是有些借鉴意义，稍微编辑了一下，发布于此。加了个tag OldStory。
 背景 紫菘10栋，上学期末，某位哥们的“肉机”中了ARP病毒，不停地伪装成我们10栋的网关218.197.219.254给其他计算机发包，至少导致了316以及附近的一排寝室无法上网，拨号软件mentohust不停的提示arp欺骗源的出现，都有一种想把他电脑砸掉的心了，可惜虽然知道他的MAC地址（当然也可能是某些病毒将其电脑伪装成的错误地址），但不知道是那一台。此次事件对我触动颇深，因此借这个网络基础课程的小论文的机会，给大家介绍一下ARP与ARP欺骗的原理，并提出一些解决方法。
 ARP协议 基本功能 ARP是地址转换协议（Address Resolution Protocol）的英文缩写，它是一个链路层协议，工作在OSI模型的第二层，在本层和硬件接口间进行联系，同时对上层（网络层）提供服务。 在以太网协议中规定，同一局域网中的一台主机要和另一台主机进行直接通信，必须要知道目标主机的MAC地址。而在TCP/IP协议栈中，网络层和传输层只关心目标主机的IP地址。这就导致在以太网中使用IP协议时，数据链路层的以太网协议接到上层IP协议提供的数据中，只包含目的主机的IP地址。于是需要一种方法，根据目的主机的IP地址，获得其MAC地址，ARP 协议就是用来确定这种对应关系的协议。所谓地址解析（address resolution）就是主机在发送帧前将目标IP地址转换成目标MAC地址的过程。 另外，当发送主机和目的主机不在同一个局域网中时，即便知道目的主机的MAC地址，两者也不能直接通信，必须经过路由转发才可以。所以此时，发送主机通过ARP协议获得的将不是目的主机的真实MAC地址，而是一台可以通往局域网外的路由器的某个端口的MAC地址。于是此后发送主机发往目的主机的所有帧，都将发往该路由器，通过它向外发送。这种情况称为ARP代理（ARP Proxy）。
@@ -59,10 +59,10 @@ ARP -s inet_addr eth_addr [if_addr] ARP -d inet_addr [if_addr] ARP -a [inet_addr
     
     <item>
       <title>Multiple routers bridge connection </title>
-      <link>gh.ysmiles.com/posts/multiple-routers-bridge-connection/</link>
+      <link>/posts/multiple-routers-bridge-connection/</link>
       <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>gh.ysmiles.com/posts/multiple-routers-bridge-connection/</guid>
+      <guid>/posts/multiple-routers-bridge-connection/</guid>
       <description>I have 2 wireless routers (R1, R2) in my local area network (LAN). R1 is the main router, has IP 192.168.0.1 and DHCP address pool 192.168.0.100~199. R2 is in bridge mode and connects with R1. R2 has IP 192.168.1.253, and DHCP address pool 192.168.1.100~199 (actually DHCP service is now disabled automatically).
 I have a problem. When I use a device, say my PC, to connect to Internet from R2, I get an IP 192.</description>
     </item>

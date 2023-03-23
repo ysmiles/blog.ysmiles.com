@@ -2,139 +2,139 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>gh.ysmiles.com/tags/algorithm/</loc>
+    <loc>/tags/algorithm/</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/python/</loc>
+    <loc>/tags/python/</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/python-basics-for-algorithm-practices/</loc>
+    <loc>/posts/python-basics-for-algorithm-practices/</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/</loc>
+    <loc>/</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/c&#43;&#43;/</loc>
+    <loc>/tags/c&#43;&#43;/</loc>
     <lastmod>2018-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/generic-recursive-lambda-in-c&#43;&#43;14/</loc>
+    <loc>/posts/generic-recursive-lambda-in-c&#43;&#43;14/</loc>
     <lastmod>2018-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/lambda/</loc>
+    <loc>/tags/lambda/</loc>
     <lastmod>2018-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/differences-between-an-interface-and-abstract-class/</loc>
+    <loc>/posts/differences-between-an-interface-and-abstract-class/</loc>
     <lastmod>2017-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/java/</loc>
+    <loc>/tags/java/</loc>
     <lastmod>2017-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/oop/</loc>
+    <loc>/tags/oop/</loc>
     <lastmod>2017-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/docker/</loc>
+    <loc>/tags/docker/</loc>
     <lastmod>2017-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/http/</loc>
+    <loc>/tags/http/</loc>
     <lastmod>2017-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/http-server-inside-a-docker-container/</loc>
+    <loc>/posts/http-server-inside-a-docker-container/</loc>
     <lastmod>2017-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/linux/</loc>
+    <loc>/tags/linux/</loc>
     <lastmod>2017-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/network/</loc>
+    <loc>/tags/network/</loc>
     <lastmod>2017-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/rust/</loc>
+    <loc>/tags/rust/</loc>
     <lastmod>2017-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/bitcoin/</loc>
+    <loc>/tags/bitcoin/</loc>
     <lastmod>2017-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/bitcoin-price-prediction/</loc>
+    <loc>/posts/bitcoin-price-prediction/</loc>
     <lastmod>2017-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/rnn/</loc>
+    <loc>/tags/rnn/</loc>
     <lastmod>2017-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/tensorflow/</loc>
+    <loc>/tags/tensorflow/</loc>
     <lastmod>2017-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/grpc/</loc>
+    <loc>/tags/grpc/</loc>
     <lastmod>2017-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/run-a-basic-grpc-example-with-docker/</loc>
+    <loc>/posts/run-a-basic-grpc-example-with-docker/</loc>
     <lastmod>2017-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/life/</loc>
+    <loc>/tags/life/</loc>
     <lastmod>2017-08-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/jian-ping-san-ze/</loc>
+    <loc>/posts/jian-ping-san-ze/</loc>
     <lastmod>2017-08-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/magic-of-time/</loc>
+    <loc>/posts/magic-of-time/</loc>
     <lastmod>2017-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/arp/</loc>
+    <loc>/tags/arp/</loc>
     <lastmod>2016-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/arp/</loc>
+    <loc>/posts/arp/</loc>
     <lastmod>2016-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/oldstory/</loc>
+    <loc>/tags/oldstory/</loc>
     <lastmod>2016-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/multiple-routers-bridge-connection/</loc>
+    <loc>/posts/multiple-routers-bridge-connection/</loc>
     <lastmod>2016-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/router/</loc>
+    <loc>/tags/router/</loc>
     <lastmod>2016-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/vim/</loc>
+    <loc>/tags/vim/</loc>
     <lastmod>2016-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/vim-notes-1/</loc>
+    <loc>/posts/vim-notes-1/</loc>
     <lastmod>2016-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/youyuegan/</loc>
+    <loc>/posts/youyuegan/</loc>
     <lastmod>2016-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/html/</loc>
+    <loc>/tags/html/</loc>
     <lastmod>2016-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/my-first-html/</loc>
+    <loc>/posts/my-first-html/</loc>
     <lastmod>2016-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/music/</loc>
+    <loc>/tags/music/</loc>
     <lastmod>2016-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/wenrou/</loc>
+    <loc>/posts/wenrou/</loc>
     <lastmod>2016-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/first-post/</loc>
+    <loc>/posts/first-post/</loc>
     <lastmod>2016-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/tags/sitetest/</loc>
+    <loc>/tags/sitetest/</loc>
     <lastmod>2016-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/test-markdown/</loc>
+    <loc>/posts/test-markdown/</loc>
     <lastmod>2016-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/posts/welcome-to-jekyll/</loc>
+    <loc>/posts/welcome-to-jekyll/</loc>
     <lastmod>2016-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>gh.ysmiles.com/about/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>gh.ysmiles.com/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>gh.ysmiles.com/search/</loc>
+    <loc>/search/</loc>
   </url>
 </urlset>
