@@ -59,3 +59,13 @@ This file records the migration of `blog.ysmiles.com` from a checked-in static s
   - run `npm run build`
   - upload `dist/` as the Pages artifact
   - deploy with the Pages deploy action
+- 2026-04-05: Expanded the GitHub Actions trigger configuration after confirming the first Astro workflow only ran on pushes to `main`:
+  - added validation runs for pushes to `astro-migration`
+  - added validation runs for pull requests targeting `main`
+  - kept the Pages deploy job restricted to pushes on `main`
+- 2026-04-05: Removed the legacy checked-in publish output from the repository root as the planned cutover cleanup:
+  - deleted the old generated HTML, XML, CSS, JS, font, and image trees from the repo root
+  - kept deployment-owned root files sourced from `public/` instead of checked-in generated output
+  - left the Astro source, `public/` assets, and generated `dist/` workflow contract as the new source-of-truth layout
+- 2026-04-05: Created a local commit for the migration baseline: `bootstrap Astro blog migration` (`1ce9201`).
+- 2026-04-05: The `astro-migration` branch was pushed successfully by the user after Codex-side push attempts failed at the execution layer. Local Git state remained healthy, so this was treated as a tooling/runtime issue rather than a repository issue.

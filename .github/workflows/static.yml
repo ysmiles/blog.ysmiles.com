@@ -1,8 +1,12 @@
 name: Build and Deploy Astro Site
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on production pushes and the active migration branch
   push:
+    branches: ["main", "astro-migration"]
+
+  # Validates pull requests before merge without deploying preview output
+  pull_request:
     branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
@@ -52,6 +56,7 @@ jobs:
 
   deploy:
     needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

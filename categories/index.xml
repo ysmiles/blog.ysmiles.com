@@ -1,8 +1,0 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Categories - Category - ysmiles home new</title>
-        <link>https://ysmiles.com/categories/</link>
-        <description>Categories - Category - ysmiles home new</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>fromblog@ysmiles.com (Frederick)</managingEditor>
-            <webMaster>fromblog@ysmiles.com (Frederick)</webMaster><copyright>copyright test</copyright><atom:link href="https://ysmiles.com/categories/" rel="self" type="application/rss+xml" /></channel>
-</rss>
