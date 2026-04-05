@@ -13,7 +13,7 @@ interface Props {
 const { title, description, date, tags = [], subtitle } = Astro.props;
 ---
 
-<BaseLayout title={`${title} | ysmiles`} description={description}>
+<BaseLayout title={`${title} | ysmiles`} description={description} pageType="article">
   <article class="content-shell">
     <header class="prose">
       <h1 class="page-title">{title}</h1>
