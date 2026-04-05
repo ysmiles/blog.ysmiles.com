@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const posts = await getCollection("posts", ({ data }) => !data.draft);
+const tags = [...new Set(posts.flatMap((post) => post.data.tags.map((tag) => tag.toLowerCase())))]
+  .sort((a, b) => a.localeCompare(b));
+---
+
+<BaseLayout title="Tags | ysmiles" description="Browse posts by tag.">
+  <section class="hero">
+    <h1>Tags</h1>
+    <p>Browse the imported posts by topic.</p>
+  </section>
+
+  <div class="tag-row">
+    {tags.map((tag) => (
+      <a class="tag" href={`/tags/${encodeURIComponent(tag)}/`}>
+        {tag}
+      </a>
+    ))}
+  </div>
+</BaseLayout>

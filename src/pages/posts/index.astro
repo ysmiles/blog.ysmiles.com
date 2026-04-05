@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PostCard from "../../components/PostCard.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("posts", ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout title="Posts | ysmiles" description="All posts from ysmiles.">
+  <section class="hero">
+    <h1>Posts</h1>
+    <p>All writing currently imported into the Astro site.</p>
+  </section>
+
+  <section class="post-grid">
+    {posts.map((post) => <PostCard post={post} />)}
+  </section>
+</BaseLayout>

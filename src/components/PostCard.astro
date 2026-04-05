@@ -1,0 +1,28 @@
+---
+import TagList from "./TagList.astro";
+
+interface Props {
+  post: {
+    id: string;
+    data: {
+      title: string;
+      date: Date;
+      subtitle?: string;
+      summary?: string;
+      tags: string[];
+    };
+  };
+}
+
+const { post } = Astro.props;
+const description = post.data.summary ?? post.data.subtitle ?? "";
+---
+
+<article class="post-card">
+  <h2><a href={`/posts/${post.id}/`}>{post.data.title}</a></h2>
+  <div class="meta">
+    <time datetime={post.data.date.toISOString()}>{post.data.date.toISOString().slice(0, 10)}</time>
+  </div>
+  {description && <p>{description}</p>}
+  <TagList tags={post.data.tags} />
+</article>

@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PostCard from "../../components/PostCard.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts", ({ data }) => !data.draft);
+  const tags = [...new Set(posts.flatMap((post) => post.data.tags.map((tag) => tag.toLowerCase())))];
+
+  return tags.map((tag) => ({ params: { tag } }));
+}
+
+const currentTag = decodeURIComponent(Astro.params.tag ?? "").toLowerCase();
+const posts = (await getCollection("posts", ({ data }) => !data.draft))
+  .filter((post) => post.data.tags.some((tag) => tag.toLowerCase() === currentTag))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout title={`${currentTag} | Tags | ysmiles`} description={`Posts tagged ${currentTag}.`}>
+  <section class="hero">
+    <h1>Tag: {currentTag}</h1>
+    <p>{posts.length} post{posts.length === 1 ? "" : "s"} tagged with this topic.</p>
+  </section>
+
+  <section class="post-grid">
+    {posts.map((post) => <PostCard post={post} />)}
+  </section>
+</BaseLayout>
