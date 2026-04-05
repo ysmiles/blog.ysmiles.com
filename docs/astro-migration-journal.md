@@ -67,5 +67,22 @@ This file records the migration of `blog.ysmiles.com` from a checked-in static s
   - deleted the old generated HTML, XML, CSS, JS, font, and image trees from the repo root
   - kept deployment-owned root files sourced from `public/` instead of checked-in generated output
   - left the Astro source, `public/` assets, and generated `dist/` workflow contract as the new source-of-truth layout
+- 2026-04-05: Pushed the cleanup follow-up commit to `astro-migration` and confirmed the GitHub Actions branch run started successfully.
+  - the `build` job passed on the branch
+  - the `deploy` job was skipped as intended because deploys are restricted to pushes on `main`
+  - GitHub Actions emitted a platform warning that several official actions in the workflow still run on Node.js 20 internally and will need a future version review before the Node 24 transition deadline
+- 2026-04-05: Added a first Astro-native `404` page and aligned site metadata with the current GitHub Pages hostname.
+  - changed the configured Astro site URL to `https://blog.ysmiles.com`
+  - restored generation of `/404.html` for GitHub Pages
+  - re-ran `npm run check` and `npm run build`; both passed
+- 2026-04-05: Improved repo and site metadata after the main migration cutover.
+  - expanded `README.md` into a practical Astro workflow guide for local development and deployment
+  - added favicon, RSS, theme-color, Open Graph, and Twitter metadata in the shared layout
+  - marked post pages as `article` metadata pages
+  - removed leftover kramdown box marker lines from `test-markdown.md`
+  - re-ran `npm run check` and `npm run build`; both passed
+- 2026-04-05: Pushed follow-up commits to `astro-migration` for the 404 work and metadata/docs cleanup.
+  - `2c66cc6` `add astro 404 page`
+  - `ba9ba4a` `update metadata and readme`
 - 2026-04-05: Created a local commit for the migration baseline: `bootstrap Astro blog migration` (`1ce9201`).
 - 2026-04-05: The `astro-migration` branch was pushed successfully by the user after Codex-side push attempts failed at the execution layer. Local Git state remained healthy, so this was treated as a tooling/runtime issue rather than a repository issue.

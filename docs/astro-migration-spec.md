@@ -8,6 +8,25 @@ Legacy input repository: `ysmiles-web-dev`
 
 This migration replaces the current checked-in static site with an Astro source project while preserving the public site contract where practical.
 
+## Current Status
+
+Completed on `astro-migration`:
+
+- Astro source project bootstrapped in `blog.ysmiles.com`
+- posts imported into `src/content/posts/`
+- images and required Pages files moved into `public/`
+- homepage, post pages, tags, about page, RSS, search, and 404 page implemented
+- GitHub Pages workflow updated to build Astro and deploy `dist/`
+- legacy checked-in static site output removed from the repository root
+- branch validation confirmed on GitHub Actions
+- basic site metadata and repo documentation refreshed
+
+Still open or worth revisiting:
+
+- additional content polish for imported posts and standalone pages
+- future review of GitHub Actions dependency warnings around the Node 24 transition
+- final parity review before merging to `main`
+
 ## Public Routes To Preserve
 
 - `/`
