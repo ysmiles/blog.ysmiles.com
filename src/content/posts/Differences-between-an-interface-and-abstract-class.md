@@ -1,15 +1,11 @@
 ---
-layout:     post
-title:      "Differences between an interface and abstract class"
-subtitle:   "OOP Note - 1"
-author:     "Frederick"
-date:       2017-12-24
-catalog:    true
-header-mask: 
+title: "Differences between an interface and abstract class"
+date: 2017-12-24
+summary: "A short comparison of interfaces and abstract classes in Java, with a C++ perspective for contrast."
 tags:
-    - OOP
-    - Java
-    - C++
+  - OOP
+  - Java
+  - C++
 ---
 
 

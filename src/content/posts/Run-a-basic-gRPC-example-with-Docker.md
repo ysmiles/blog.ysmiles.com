@@ -1,17 +1,12 @@
 ---
-layout:     post
-title:      "Run a basic gRPC example with Docker"
-subtitle:   "Docker learning notes - 1"
-author:     "Frederick"
-date:       2017-10-05
-header-img: 
-catalog:    true
-header-mask: 
+title: "Run a basic gRPC example with Docker"
+date: 2017-10-05
+summary: "Notes on getting a simple Python gRPC example running across Docker containers."
 tags:
-    - gRPC
-    - Docker
-    - Linux
-    - Network
+  - gRPC
+  - Docker
+  - Linux
+  - Network
 ---
 
 ## Introduction

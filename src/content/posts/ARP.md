@@ -1,16 +1,11 @@
 ---
-layout:     post
-title:      "ARP与ARP欺骗"
-subtitle:   ""
-author:     "Frederick"
-date:       2016-10-18
-header-img: 
-catalog:    true
-header-mask: 
+title: "ARP与ARP欺骗"
+date: 2016-10-18
+summary: "一篇较早的网络基础笔记，结合亲历事件介绍 ARP 与 ARP 欺骗的原理和常见应对方法。"
 tags:
-    - ARP
-    - Network
-    - OldStory
+  - ARP
+  - Network
+  - OldStory
 ---
 
 至少四年以前写的。还是有些借鉴意义，稍微编辑了一下，发布于此。加了个tag OldStory。

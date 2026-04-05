@@ -1,32 +1,17 @@
 ---
-layout:     post
-title:      "First Post - how to make a website by Jekyll"
-subtitle:   " \"Hello World, Hello Blog\""
-author:     "YS"
-date:       2016-05-17
-header-img: "img/post-bg-2015.jpg"
-catalog:    true
-header-mask: 0.3
+title: "First post"
+date: 2016-05-17
+summary: "A small archival note from the earliest version of the blog."
 tags:
-    - Life
+  - Life
 ---
 
-## Hello everyone! This is my first post.
+## Hello everyone
 
-In this post, I will teach you how to make a website just like this one using [Jekyll](https://jekyllrb.com).
-Even if you know nothing about how to write a webpage, it will only take few minutes.
-In fact, I am also a green hand and not familiar with everything of Jekyll, but let's study together.
+This was the first post on the original version of the site.
 
-First, you could go to [Burela's House-O-Blog](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/)
-to find the easily way to install Jekyll by [Chocolatey](https://chocolatey.org/).
-Follow his steps and it only takes 2 steps.
+At the time, I was learning the basics of static-site tooling through Jekyll and trying to understand how little was needed to put writing on the web. The original draft mostly repeated setup steps from another tutorial, so I have trimmed it down here and kept it as an archive marker instead of a live how-to guide.
 
-Then in command prompt use *Jekyll new blog* to creat a new project or just fork this project at Github. After going into the folder (*cd blog*), use *Jekyll serve* to start the service.
+What still feels true is the spirit of that first post: a blog can begin with very little. A title, a page, a few lines of text, and the willingness to keep going are enough.
 
-Open your browser, type in http://localhost:4000/, press Enter and that's it!
-
-You may notice this is just a rewrite of Burela's method. I post this just for a review of the contents myself.
-
-## This line is for demonstration of catalog.
-
-Have a good day!
+The site has moved on from Jekyll, then Hugo, and now Astro, but I wanted to keep a small record of where the blog started.

@@ -1,15 +1,10 @@
 ---
-layout:     post
-title:      "Multiple routers bridge connection "
-subtitle:   "How to visit configure pages of each router?"
-author:     "Frederick"
-date:       2016-09-23
-header-img: 
-catalog:    true
-header-mask: 
+title: "Multiple routers bridge connection"
+date: 2016-09-23
+summary: "A quick networking note on reaching the admin pages of two bridged routers on adjacent subnets."
 tags:
-    - Router
-    - Network
+  - Router
+  - Network
 ---
 
 I have 2 wireless routers (R1, R2) in my local area network (LAN). 

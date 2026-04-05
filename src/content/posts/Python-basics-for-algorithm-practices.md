@@ -1,9 +1,8 @@
 ---
-layout:		post
-title:		Python basics for algorithm practices
-subtitle:	leetcode
-date:       2021-12-20
-tags:		[Python, Algorithm]
+title: Python basics for algorithm practices
+date: 2021-12-20
+summary: "Working notes on Python features and standard-library tools that come up often in algorithm practice."
+tags: [Python, Algorithm]
 ---
 
 Actively updating...

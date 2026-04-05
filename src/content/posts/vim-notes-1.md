@@ -1,15 +1,10 @@
 ---
-layout:     post
-title:      "Vim Notes 1"
-subtitle:   "Try to improve efficiency"
-author:     "Frederick"
-date:       2016-09-12
-header-img: 
-catalog:    true
-header-mask: 
+title: "Vim Notes 1"
+date: 2016-09-12
+summary: "Early Vim notes focused on search, replace, and macro basics for everyday editing."
 tags:
-    - Vim
-    - Python
+  - Vim
+  - Python
 ---
 
 # Beginning
