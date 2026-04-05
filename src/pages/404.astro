@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Page Not Found | ysmiles" description="The page you were looking for could not be found.">
+  <section class="content-shell not-found">
+    <p class="eyebrow">404</p>
+    <h1 class="page-title">Page not found</h1>
+    <p class="page-intro">
+      The link may be old, or the page may have moved during the Astro migration. You can head back to the homepage
+      or browse the post archive from here.
+    </p>
+    <div class="not-found__actions">
+      <a class="button-link" href="/">Go home</a>
+      <a class="button-link button-link--secondary" href="/posts/">Browse posts</a>
+    </div>
+  </section>
+</BaseLayout>

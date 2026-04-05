@@ -180,6 +180,48 @@ img {
   margin-top: 1.5rem;
 }
 
+.eyebrow {
+  margin: 0 0 0.75rem;
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.not-found {
+  min-height: 50vh;
+  display: grid;
+  align-content: center;
+  gap: 0.5rem;
+}
+
+.not-found__actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.button-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 9rem;
+  padding: 0.85rem 1.2rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff8f0;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.button-link--secondary {
+  background: var(--surface);
+  color: var(--accent);
+}
+
 @media (max-width: 720px) {
   .site-header__inner {
     align-items: flex-start;
