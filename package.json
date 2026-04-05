@@ -1,0 +1,20 @@
+{
+  "name": "blog-ysmiles-com",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "XDG_CONFIG_HOME=./.config ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "XDG_CONFIG_HOME=./.config ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "XDG_CONFIG_HOME=./.config ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "check": "XDG_CONFIG_HOME=./.config ASTRO_TELEMETRY_DISABLED=1 astro check"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.18",
+    "astro": "^6.1.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.8",
+    "typescript": "^5.9.3"
+  }
+}

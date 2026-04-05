@@ -1,0 +1,62 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Search | ysmiles" description="Search the imported post index.">
+  <section class="hero">
+    <h1>Search</h1>
+    <p>Search titles, subtitles, summaries, and tags from the migrated post index.</p>
+  </section>
+
+  <input class="search-input" id="search-input" type="search" placeholder="Search posts..." />
+  <div class="search-results" id="search-results"></div>
+
+  <script>
+    interface SearchEntry {
+      slug: string;
+      title: string;
+      subtitle: string;
+      summary: string;
+      tags: string[];
+      date: string;
+    }
+
+    const input = document.querySelector<HTMLInputElement>("#search-input");
+    const results = document.querySelector<HTMLDivElement>("#search-results");
+
+    if (!input || !results) {
+      throw new Error("Search UI is missing expected elements.");
+    }
+
+    const resultsEl = results;
+    const entries: SearchEntry[] = await fetch("/search.json").then((res) => res.json());
+
+    function render(items: SearchEntry[]) {
+      resultsEl.innerHTML = items
+        .map(
+          (item: SearchEntry) => `
+            <article class="post-card">
+              <h2><a href="/posts/${item.slug}/">${item.title}</a></h2>
+              <div class="meta">${item.date}</div>
+              ${item.summary ? `<p>${item.summary}</p>` : ""}
+            </article>
+          `,
+        )
+        .join("");
+    }
+
+    render(entries);
+    input.addEventListener("input", (event) => {
+      const value = (event.currentTarget as HTMLInputElement).value.trim().toLowerCase();
+      if (!value) {
+        render(entries);
+        return;
+      }
+
+      const filtered = entries.filter((entry: SearchEntry) =>
+        [entry.title, entry.subtitle, entry.summary, entry.tags.join(" ")].join(" ").toLowerCase().includes(value),
+      );
+      render(filtered);
+    });
+  </script>
+</BaseLayout>
