@@ -8,9 +8,11 @@ interface Props {
   date: Date;
   tags?: string[];
   subtitle?: string;
+  headings?: { depth: number; slug: string; text: string }[];
 }
 
-const { title, description, date, tags = [], subtitle } = Astro.props;
+const { title, description, date, tags = [], subtitle, headings = [] } = Astro.props;
+const tocHeadings = headings.filter((heading) => heading.depth >= 2 && heading.depth <= 3);
 ---
 
 <BaseLayout title={`${title} | ysmiles`} description={description} pageType="article">
@@ -24,8 +26,30 @@ const { title, description, date, tags = [], subtitle } = Astro.props;
       </div>
       <TagList tags={tags} />
     </header>
-    <div class="article-body prose">
-      <slot />
+    <div class:list={["article-layout", tocHeadings.length > 0 && "article-layout--with-toc"]}>
+      {tocHeadings.length > 0 && (
+        <aside class="article-toc" aria-label="On this page">
+          <div class="article-toc__inner">
+            <p class="article-toc__title">On this page</p>
+            <nav class="article-toc__nav">
+              {tocHeadings.map((heading) => (
+                <a
+                  class:list={[
+                    "article-toc__link",
+                    heading.depth === 3 && "article-toc__link--child",
+                  ]}
+                  href={`#${heading.slug}`}
+                >
+                  {heading.text}
+                </a>
+              ))}
+            </nav>
+          </div>
+        </aside>
+      )}
+      <div class="article-body prose">
+        <slot />
+      </div>
     </div>
   </article>
 </BaseLayout>
