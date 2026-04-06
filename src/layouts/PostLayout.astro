@@ -14,16 +14,17 @@ const { title, description, date, tags = [], subtitle } = Astro.props;
 ---
 
 <BaseLayout title={`${title} | ysmiles`} description={description} pageType="article">
-  <article class="content-shell">
-    <header class="prose">
+  <article class="article-shell content-shell">
+    <header class="article-header">
+      <p class="eyebrow">Post</p>
       <h1 class="page-title">{title}</h1>
       {subtitle && <p class="page-intro">{subtitle}</p>}
-      <div class="meta">
+      <div class="meta article-meta">
         <time datetime={date.toISOString()}>{date.toISOString().slice(0, 10)}</time>
       </div>
       <TagList tags={tags} />
     </header>
-    <div class="prose">
+    <div class="article-body prose">
       <slot />
     </div>
   </article>

@@ -10,11 +10,26 @@ const posts = (await getCollection("posts", ({ data }) => !data.draft))
 
 <BaseLayout title="ysmiles" description="Personal writing on software, life, music, and other interests.">
   <section class="hero">
-    <h1>ysmiles</h1>
-    <p>
-      A rebuilt personal blog in progress. This Astro migration keeps the existing writing while simplifying the
-      source workflow into one repository.
-    </p>
+    <div class="hero__copy">
+      <p class="eyebrow">Notes on software, life, and making things</p>
+      <h1>ysmiles</h1>
+      <p>
+        A rebuilt personal blog in progress. This Astro migration keeps the existing writing while simplifying the
+        source workflow into one repository.
+      </p>
+    </div>
+    <aside class="hero__panel">
+      <p class="hero__panel-label">Now</p>
+      <p class="hero__panel-text">
+        The site is now Astro-based, source-first, and easier to keep alive. Visual polish is still evolving, but the
+        writing is back in one place.
+      </p>
+    </aside>
+  </section>
+
+  <section class="section-heading">
+    <p class="eyebrow">Recent writing</p>
+    <h2>Latest posts</h2>
   </section>
 
   <section class="post-grid">

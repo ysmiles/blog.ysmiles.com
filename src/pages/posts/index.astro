@@ -9,8 +9,17 @@ const posts = (await getCollection("posts", ({ data }) => !data.draft))
 
 <BaseLayout title="Posts | ysmiles" description="All posts from ysmiles.">
   <section class="hero">
-    <h1>Posts</h1>
-    <p>All writing currently imported into the Astro site.</p>
+    <div class="hero__copy">
+      <p class="eyebrow">Archive</p>
+      <h1>Posts</h1>
+      <p>All writing currently imported into the Astro site.</p>
+    </div>
+    <aside class="hero__panel">
+      <p class="hero__panel-label">Scope</p>
+      <p class="hero__panel-text">
+        Software notes, personal essays, and older archive pieces preserved during the migration.
+      </p>
+    </aside>
   </section>
 
   <section class="post-grid">

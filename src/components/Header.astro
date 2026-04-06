@@ -6,13 +6,35 @@ const nav = [
   { href: "/about/", label: "About" },
   { href: "/search/", label: "Search" },
 ];
+
+const themes = [
+  { id: "fresh", label: "Fresh" },
+  { id: "stage", label: "Stage" },
+];
 ---
 
 <header class="site-header">
   <div class="site-shell site-header__inner">
-    <h1 class="site-title"><a href="/">ysmiles</a></h1>
-    <nav class="site-nav" aria-label="Primary">
-      {nav.map((item) => <a href={item.href}>{item.label}</a>)}
-    </nav>
+    <div class="site-brand">
+      <p class="site-kicker">Personal archive</p>
+      <h1 class="site-title"><a href="/">ysmiles</a></h1>
+    </div>
+    <div class="site-header__actions">
+      <nav class="site-nav" aria-label="Primary">
+        {nav.map((item) => <a href={item.href}>{item.label}</a>)}
+      </nav>
+      <div class="theme-switcher" aria-label="Theme switcher" role="group">
+        {themes.map((theme) => (
+          <button
+            class="theme-switcher__button"
+            type="button"
+            data-theme-switch={theme.id}
+            aria-pressed={theme.id === "fresh" ? "true" : "false"}
+          >
+            {theme.label}
+          </button>
+        ))}
+      </div>
+    </div>
   </div>
 </header>
