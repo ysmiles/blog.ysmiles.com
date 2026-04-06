@@ -20,6 +20,10 @@ const siteName = "ysmiles";
 const canonicalUrl = Astro.url.href;
 const baseUrl = Astro.site ?? Astro.url;
 const socialImage = new URL(image, baseUrl).href;
+const themeColors = {
+  fresh: "#5f8f7b",
+  stage: "#161a24",
+};
 ---
 
 <!doctype html>
@@ -27,10 +31,20 @@ const socialImage = new URL(image, baseUrl).href;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style is:inline>
+      html.theme-preload-stage {
+        background: #090b11;
+        color-scheme: dark;
+      }
+
+      html.theme-preload-stage body {
+        background: transparent;
+      }
+    </style>
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
-    <meta name="theme-color" content="#8c3b2a" />
+    <meta name="theme-color" content={themeColors.fresh} />
     <link rel="canonical" href={canonicalUrl} />
     <link rel="icon" href="/images/favicon.ico" sizes="any" />
     <link rel="alternate" type="application/rss+xml" title={`${siteName} RSS feed`} href="/rss.xml" />
@@ -44,6 +58,30 @@ const socialImage = new URL(image, baseUrl).href;
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={socialImage} />
+    <script is:inline>
+      (() => {
+        const storedTheme = (() => {
+          try {
+            return localStorage.getItem("ysmiles-theme");
+          } catch {
+            return null;
+          }
+        })();
+        const theme = storedTheme || "fresh";
+        if (theme === "stage") {
+          document.documentElement.classList.add(`theme-preload-${theme}`);
+        }
+        document.documentElement.dataset.theme = theme;
+        const themeColorMap = {
+          fresh: "#5f8f7b",
+          stage: "#161a24",
+        };
+        const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+        if (themeColorMeta && themeColorMap[theme]) {
+          themeColorMeta.setAttribute("content", themeColorMap[theme]);
+        }
+      })();
+    </script>
   </head>
   <body>
     <Header />
@@ -51,5 +89,53 @@ const socialImage = new URL(image, baseUrl).href;
       <slot />
     </main>
     <Footer />
+    <script is:inline>
+      (() => {
+        const themeButtons = Array.from(document.querySelectorAll("[data-theme-switch]"));
+        const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+        const themeColorMap = {
+          fresh: "#5f8f7b",
+          stage: "#161a24",
+        };
+
+        function applyTheme(theme) {
+          document.documentElement.classList.remove("theme-preload-stage");
+          if (theme === "stage") {
+            document.documentElement.classList.add(`theme-preload-${theme}`);
+          }
+          document.documentElement.dataset.theme = theme;
+          if (themeColorMeta && themeColorMap[theme]) {
+            themeColorMeta.setAttribute("content", themeColorMap[theme]);
+          }
+          for (const button of themeButtons) {
+            const pressed = button.getAttribute("data-theme-switch") === theme;
+            button.setAttribute("aria-pressed", pressed ? "true" : "false");
+          }
+          try {
+            localStorage.setItem("ysmiles-theme", theme);
+          } catch {}
+
+          requestAnimationFrame(() => {
+            document.documentElement.classList.remove("theme-preload-stage");
+          });
+        }
+
+        const initialTheme = document.documentElement.dataset.theme || "fresh";
+        applyTheme(initialTheme);
+        window.addEventListener("pageshow", () => {
+          const currentTheme = document.documentElement.dataset.theme || "fresh";
+          applyTheme(currentTheme);
+        });
+
+        for (const button of themeButtons) {
+          button.addEventListener("click", () => {
+            const theme = button.getAttribute("data-theme-switch");
+            if (theme) {
+              applyTheme(theme);
+            }
+          });
+        }
+      })();
+    </script>
   </body>
 </html>

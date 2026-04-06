@@ -86,3 +86,19 @@ This file records the migration of `blog.ysmiles.com` from a checked-in static s
   - `ba9ba4a` `update metadata and readme`
 - 2026-04-05: Created a local commit for the migration baseline: `bootstrap Astro blog migration` (`1ce9201`).
 - 2026-04-05: The `astro-migration` branch was pushed successfully by the user after Codex-side push attempts failed at the execution layer. Local Git state remained healthy, so this was treated as a tooling/runtime issue rather than a repository issue.
+- 2026-04-05: Finished the remaining migration validation and merged the Astro cutover to `main`.
+  - confirmed the GitHub Pages workflow builds on branch pushes and deploys on `main`
+  - verified the custom domain and Pages settings after merge
+  - confirmed the public site serves the Astro version after deployment propagation
+- 2026-04-05: Continued post-cutover polish on content and public pages.
+  - rewrote the About page into an Astro page with complete metadata
+  - cleaned post summaries and front matter for several imported posts so cards, RSS, and search results read better
+  - verified all changes with `npm run check` and `npm run build`
+- 2026-04-05: Added a two-theme visual refresh pass for the live Astro site.
+  - introduced a persistent theme switcher with `Fresh` and `Stage`
+  - tuned `Fresh` toward a Miku-inspired mint/teal palette
+  - rebuilt `Stage` into a darker Bocchi/live-house inspired theme with cyan and amber accents
+  - improved article readability with a stronger post header, calmer reading panel, better spacing, and theme-aware code blocks
+  - fixed a dark-theme first-paint flash during route changes by preloading the selected theme before the full page styles settle
+  - removed the intermediate `Slate` theme after deciding the final two-theme setup was clearer
+  - kept a possible future follow-up for more characterful `Stage` tags and buttons, but left it out of this batch to keep the UI focused

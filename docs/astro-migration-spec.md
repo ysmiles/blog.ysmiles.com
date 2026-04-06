@@ -20,12 +20,21 @@ Completed on `astro-migration`:
 - legacy checked-in static site output removed from the repository root
 - branch validation confirmed on GitHub Actions
 - basic site metadata and repo documentation refreshed
+- About page rewritten as an Astro route with working page metadata
+- several imported post summaries and front matter entries cleaned up for cards, RSS, and search
+- live deployment merged to `main` and verified on GitHub Pages
+- two-theme presentation system added for post-cutover polish:
+  - `Fresh` as the light default
+  - `Stage` as the darker expressive theme
+- article readability refined with stronger post framing, improved spacing, and theme-aware code blocks
 
 Still open or worth revisiting:
 
 - additional content polish for imported posts and standalone pages
+- possible future third theme only if it is clearly distinct from `Fresh` and `Stage`
+- optional `Stage`-specific tag/button styling pass
 - future review of GitHub Actions dependency warnings around the Node 24 transition
-- final parity review before merging to `main`
+- longer retrospective write-up about the migration and design iteration process
 
 ## Public Routes To Preserve
 
