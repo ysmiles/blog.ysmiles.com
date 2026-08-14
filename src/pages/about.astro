@@ -2,35 +2,69 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<BaseLayout title="About | ysmiles" description="About Frederick: software engineer, anime fan, music lover, and longtime builder.">
+<BaseLayout title="About | ysmiles" description="About Frederick — a software engineer in Northern California writing on engineering, anime, music, and life.">
   <section class="hero">
     <h1>About</h1>
     <p>
-      I’m Frederick, a software engineer in Northern California who likes building things, learning across
-      disciplines, and keeping a small personal corner of the web.
+      I'm Frederick, a software engineer in Northern California. I build things, think about
+      systems — even in convention hallways — and keep this as a small personal corner of the web.
+    </p>
+    <p>
+      This is where I write about <strong>engineering</strong> — system design, distributed
+      systems, and the tools I reach for — alongside <strong>life</strong>: anime and manga, music,
+      and the occasional reflection.
     </p>
   </section>
 
   <section class="content-shell prose">
+    <h2>Start here</h2>
+    <ul>
+      <li>
+        <a href="/posts/returning-from-anime-expo/">Returning from Anime Expo with a System Design Question</a>
+        — designing a convention queueing system end to end.
+      </li>
+      <li>
+        <a href="/posts/migrating-this-blog-to-astro-with-codex/">Migrating this blog to Astro with Codex</a>
+        — how this site got its current shape.
+      </li>
+      <li>
+        <a href="/posts/magic-of-time/">时间的魔法</a>
+        — a personal reflection on time and growing up.
+      </li>
+      <li>
+        <a href="/posts/jian-ping-san-ze/">简评三则</a>
+        — short reviews: 射雕, 君名, and 阿修罗.
+      </li>
+    </ul>
+
+    <h2>Now</h2>
+    <p>
+      I'm building a convention queueing system — Go, PostgreSQL, and Redis — and writing up the
+      trade-offs as I go. Otherwise: work, lifting, and a backlog of anime I keep promising to catch up on.
+    </p>
+
     <h2>Interests</h2>
+    <h3>Engineering</h3>
+    <ul>
+      <li>Computer science and software engineering</li>
+      <li>System design and distributed systems</li>
+    </ul>
+    <h3>Life</h3>
     <ul>
       <li>Anime and manga</li>
       <li>Sci-fi movies</li>
-      <li>Acoustic guitar, electric guitar, singing, and Cubase</li>
+      <li>Acoustic and electric guitar, singing, and Cubase</li>
       <li>Strength training, badminton, and swimming</li>
-      <li>Computer science and engineering</li>
       <li>Cooking and finding tasty food</li>
     </ul>
-
-    <p>No longer get much time for: drawing, erhu, and tai chi.</p>
+    <p>These days I rarely find time for: drawing, erhu, and tai chi.</p>
 
     <h2>Games</h2>
-    <p>Games I’ve stuck with for a long time:</p>
+    <p>Still playing after all these years:</p>
     <ul>
       <li>Arknights (JP server)</li>
     </ul>
-
-    <p>Games I’ve since said goodbye to:</p>
+    <p>Played for a long time, now retired:</p>
     <ul>
       <li>Princess Connect! Re: Dive (JP server)</li>
       <li>Azur Lane (JP server)</li>
@@ -44,13 +78,17 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <li>BEng in <strong>Chemical Engineering and Technology</strong>, <em>Huazhong University of Science and Technology</em></li>
     </ul>
 
-    <h2>Other Info</h2>
-    <p>Member of Shenghan - SH. 1102.</p>
-
-    <h2>Contact</h2>
+    <h2>Find me</h2>
     <ul>
       <li>GitHub: <a href="https://github.com/ysmiles">github.com/ysmiles</a></li>
+      <li>Instagram: <a href="https://www.instagram.com/ysmiles">@ysmiles</a></li>
+      <li>Bangumi (bgm.tv): <a href="https://bgm.tv/user/ysmiles">ysmiles</a></li>
+      <li>Bilibili: <a href="https://space.bilibili.com/4921899">微笑的蜥蜴</a></li>
+      <li>小红书: <a href="https://xhslink.cn/m/zjISTObc4P">微笑的蜥蜴</a></li>
       <li>Email: <a href="mailto:fromblog@ysmiles.com">fromblog@ysmiles.com</a></li>
     </ul>
+
+    <h2>Other info</h2>
+    <p>Member of Shenghan - SH. 1102.</p>
   </section>
 </BaseLayout>
